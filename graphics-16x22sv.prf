@@ -1,0 +1,508 @@
+# File: graphics-16x22tg.prf
+#
+# TomeNET graphics redefinitions for 16x22tg.bmp file.
+# This file defines special attr/char mappings for use in "graphics" mode.
+#
+
+################# Floors #################
+
+# Floors
+F:1:/0 # Open floor (without it i have packet errors and friquent client crashes)
+
+################# Objects #################
+
+##### Mushrooms #####
+
+U:80:/301 # Unknown mushroom
+
+K:1:/301 # Blindness
+K:2:/301 # Paranoia
+K:3:/301 # Confusion
+K:4:/301 # Hallucination
+K:5:/301 # Cure Poison
+K:6:/301 # Cure Blindness
+K:7:/301 # Cure Paranoia
+K:8:/301 # Cure Confusion
+K:9:/301 # Weakness
+K:10:/301 # Unhealth
+K:11:/301 # Restore Constitution
+K:12:/301 # Restoring
+K:13:/301 # Stupidity
+K:14:/301 # Naivety
+K:15:/301 # Poison
+K:16:/301 # Sickness
+K:17:/301 # Paralysis
+K:18:/301 # Restore Strength
+K:19:/301 # Disease
+K:20:/301 # Cure Serious Wounds
+K:514:/301 # Fast Metabolism
+K:815:/301 # Unmagic
+
+##### Scrolls #####
+
+U:70:/302 # Unknown scroll
+
+K:173:/302 # Enchant Weapon To-Hit
+K:174:/302 # Enchant Weapon To-Dam
+K:175:/302 # Enchant Armour
+K:176:/302 # Identify
+K:177:/302 # *Identify*
+K:178:/302 # Rumour
+K:179:/302 # Chaos
+K:180:/302 # Remove Curse
+K:181:/302 # Light
+K:182:/302 # Fire
+K:183:/302 # Ice
+K:184:/302 # Summon Monster
+K:185:/302 # Phase Door
+K:186:/302 # Teleportation
+K:188:/302 # Monster Confusion
+K:189:/302 # Magic Mapping
+K:190:/302 # Rune of Protection
+K:191:/302 # *Remove Curse*
+K:192:/302 # Treasure Detection
+K:194:/302 # Trap Detection
+K:197:/302 # Door/Stair Location
+K:198:/302 # Acquirement
+K:199:/302 # *Acquirement*
+K:200:/302 # Obliteration
+K:201:/302 # Detect Invisible
+K:202:/302 # Aggravate Monster
+K:203:/302 # Trap Creation
+K:204:/302 # Trap/Door Destruction
+K:205:/302 # Artifact Creation
+K:206:/302 # Recharging
+K:207:/302 # Genocide
+K:208:/302 # Darkness
+K:209:/302 # Protection from Evil
+K:210:/302 # Satisfy Hunger
+K:211:/302 # Dispel Undead
+K:212:/302 # *Enchant Weapon*
+K:213:/302 # Curse Weapon
+K:214:/302 # *Enchant Armour*
+K:215:/302 # Curse Armour
+K:216:/302 # Summon Undead
+K:217:/302 # Blessing
+K:218:/302 # Holy Chant
+K:219:/302 # Holy Prayer
+K:220:/302 # Word of Recall
+K:221:/302 # *Destruction*
+K:446:/302 # Fireworks
+K:564:/302 # Nothing
+K:812:/302 # Life
+K:814:/302 # Blood Bond
+K:863:/302 # Golem Creation
+K:881:/302 # House creation
+K:898:/302 # Lottery
+K:899:/302 # Identify Everything
+K:900:/302 # Vermin Control
+K:908:/302 # The Gazette
+K:912:/302 # Cancellation
+K:914:/302 # Wilderness Mapping
+K:976:/302 # Highlander Victory Deed
+K:977:/302 # Highlander Contender Deed
+K:992:/302 # Master Gladiator's Deed
+K:993:/302 # Gladiator's Deed
+K:994:/302 # Vanquisher's Deed
+K:995:/302 # Gladiator's Entrance
+K:1031:/302 # Cheque
+K:1038:/302 # Dungeon-fleeing Certificate
+K:1039:/302 # Horned Reaper's Autograph
+
+K:757:/302 # & Spell Scroll~ of #
+
+##### Tomes #####
+
+U:111:/303 # Unknown Tome
+
+K:330:/303 # Tome of Magical Energy
+K:331:/303 # Tome of the Eternal Flame
+K:332:/303 # Tome of the Blowing Wind
+K:333:/303 # Tome of the Impenetrable Earth
+K:334:/303 # Tome of the Everrunning Wave
+K:335:/303 # Tome of Translocation
+K:336:/303 # Tome of the Tree
+K:337:/303 # Tome of Knowledge
+K:515:/303 # Handbook of Wind and Weather
+K:738:/303 # Handbook of Beginner Cantrips
+K:756:/303 # Tome of the Time
+K:763:/303 # Unholy Tome of the Hellflame
+K:787:/303 # Adventurer's Guide to Middle Earth
+K:848:/303 # Handbook of Manipulation
+K:849:/303 # Handbook of Alleviation
+K:860:/303 # Golem Scroll of Attack
+K:861:/303 # Golem Scroll of Following
+K:862:/303 # Golem Scroll of Guard
+K:907:/303 # The Book of the Dead
+K:922:/303 # Tome of Holy Offense
+K:923:/303 # Tome of Holy Defense
+K:924:/303 # Tome of Holy Curing
+K:925:/303 # Tome of Holy Support
+K:950:/303 # Tome of Arcane Lore
+K:951:/303 # Tome of Physical Lore
+K:942:/303 # White Knight
+K:948:/303 # Black Knight
+K:956:/303 # Elementalist's Handbook
+K:957:/303 # Handbook for Treasure Hunting
+K:958:/303 # Handbook of Piety
+K:959:/303 # Naturalist's Handbook
+K:960:/303 # Destroyer's Handbook
+K:980:/303 # Handbook of Deception
+K:982:/303 # Handbook of Dungeon Keeping
+K:1035:/303 # Handbook of Revelation
+K:1041:/303 # Handbook of Transportation
+K:1036:/303 # Handbook of Novice Etiquette
+K:1037:/303 # Handbook of First Visions
+K:974:/303 # Astral Grimoire
+K:1001:/303 # Codex
+K:1002:/303 # Spellbook
+K:1003:/303 # Grimoire
+K:379:/303 # Tome of Shadows
+K:380:/303 # Tome of Spirits
+K:384:/303 # Corrupted Tome of Chaos
+K:447:/303 # Tainted Tome of Unlife
+
+K:996:/304 #& Greater Crystal of Psycho-Power
+K:997:/304 #& Greater Crystal of Attunement
+K:998:/304 #& Greater Crystal of Mental Intrusion
+
+##### Wands #####
+
+U:65:/305 # Unknown Wand
+
+K:269:/305 # Light
+K:271:/305 # Frost Bolts
+K:272:/305 # Fire Bolts
+K:273:/305 # Stone to Mud
+K:274:/305 # Polymorph
+K:275:/305 # Heal Monster
+K:276:/305 # Haste Monster
+K:277:/305 # Slow Monster
+K:278:/305 # Confuse Monster
+K:279:/305 # Sleep Monster
+K:280:/305 # Drain Life
+K:281:/305 # Trap/Door Destruction
+K:282:/305 # Magic Missile
+K:283:/305 # Clone Monster
+K:284:/305 # Scare Monster
+K:285:/305 # Teleport Other
+K:286:/305 # Disarming
+K:287:/305 # Lightning Balls
+K:288:/305 # Cold Balls
+K:289:/305 # Fire Balls
+K:290:/305 # Stinking Cloud
+K:291:/305 # Acid Balls
+K:292:/305 # Wonder
+K:294:/305 # Acid Bolts
+K:295:/305 # Dragon's Flame
+K:296:/305 # Dragon's Frost
+K:297:/305 # Dragon's Breath
+K:298:/305 # Annihilation
+K:299:/305 # Rockets
+K:566:/305 # Nothing
+K:728:/305 # Wall Creation
+K:813:/305 # Lightning Bolts
+K:913:/305 # Teleport To
+
+##### Rods #####
+
+U:66:/306 # Unknown Rod
+
+K:350:/306 # Havoc
+K:351:/306 # Door/Stair Location
+K:352:/306 # Trap Location
+K:353:/306 # Probing
+K:354:/306 # Recall
+K:355:/306 # Illumination
+K:356:/306 # Light
+K:357:/306 # Lightning Bolts
+K:358:/306 # Frost Bolts
+K:359:/306 # Fire Bolts
+K:360:/306 # Polymorph
+K:361:/306 # Slow Monster
+K:362:/306 # Sleep Monster
+K:363:/306 # Drain Life
+K:364:/306 # Teleport Other
+K:365:/306 # Disarming
+K:366:/306 # Lightning Balls
+K:367:/306 # Cold Balls
+K:368:/306 # Fire Balls
+K:369:/306 # Acid Balls
+K:370:/306 # Acid Bolts
+K:371:/306 # Enlightenment
+K:372:/306 # Perception
+K:373:/306 # Curing
+K:374:/306 # Healing
+K:375:/306 # Detection
+K:376:/306 # Restoration
+K:377:/306 # Speed
+K:569:/306 # Nothing
+
+##### Staves #####
+
+U:55:/307 # Unknown Staff
+
+K:300:/ 307 # Trap Location
+K:301:/ 307 # Treasure Location
+K:303:/ 307 # Teleportation
+K:304:/ 307 # Earthquakes
+K:305:/ 307 # Summoning
+K:306:/ 307 # Light
+K:307:/ 307 # *Destruction*
+K:308:/ 307 # Starlight
+K:309:/ 307 # Haste Monsters
+K:310:/ 307 # Slow Monsters
+K:311:/ 307 # Sleep Monsters
+K:312:/ 307 # Cure Serious Wounds
+K:313:/ 307 # Detect Invisible
+K:314:/ 307 # Speed
+K:315:/ 307 # Slowness
+K:316:/ 307 # Door/Stair Location
+K:317:/ 307 # Remove Curse
+K:318:/ 307 # Detect Evil
+K:319:/ 307 # Curing
+K:320:/ 307 # Dispel Evil
+K:321:/ 307 # Probing
+K:322:/ 307 # Darkness
+K:323:/ 307 # Genocide
+K:324:/ 307 # Power
+K:325:/ 307 # the Magi
+K:326:/ 307 # Perception
+K:327:/ 307 # Holiness
+K:328:/ 307 # Enlightenment
+K:329:/ 307 # Healing
+K:568:/ 307 # Nothing
+K:902:/ 307 # *Perception*
+
+##### Potions #####
+
+U:71:/300 # Unknown potion
+
+K:222:/300 # Slime Mold Juice
+K:223:/300 # Apple Juice
+K:224:/300 # Water
+K:225:/300 # Strength
+K:226:/300 # Weakness
+K:227:/300 # Restore Strength
+K:228:/300 # Intelligence
+K:229:/300 # Stupidity
+K:230:/300 # Restore Intelligence
+K:231:/300 # Wisdom
+K:232:/300 # Naivety
+K:233:/300 # Restore Wisdom
+K:234:/300 # Charisma
+K:235:/300 # Ugliness
+K:236:/300 # Restore Charisma
+K:237:/300 # Curing
+K:238:/300 # Invulnerability
+K:240:/300 # Cure Serious Wounds
+K:241:/300 # Cure Critical Wounds
+K:242:/300 # Healing
+K:243:/300 # Constitution
+K:244:/300 # Experience
+K:245:/300 # Sleep
+K:246:/300 # Blindness
+K:247:/300 # Booze
+K:248:/300 # Poison
+K:249:/300 # Speed
+K:250:/300 # Slowness
+K:251:/300 # Dexterity
+K:252:/300 # Restore Dexterity
+K:253:/300 # Restore Constitution
+K:254:/300 # Lose Memories
+K:255:/300 # Salt Water
+K:256:/300 # Enlightenment
+K:257:/300 # Heroism
+K:258:/300 # Berserk Strength
+K:259:/300 # Boldness
+K:260:/300 # Restore Life Levels
+K:261:/300 # Resist Heat
+K:262:/300 # Resist Cold
+K:263:/300 # Detect Invisible
+K:264:/300 # Slow Poison
+K:265:/300 # Neutralize Poison
+K:266:/300 # Restore Mana
+K:267:/300 # Infra-vision
+K:268:/300 # Resistance
+K:348:/300 # Flask of Oil
+K:349:/300 # Empty Bottle
+K:415:/300 # Death
+K:416:/300 # Ruination
+K:417:/300 # Detonations
+K:418:/300 # Augmentation
+K:419:/300 # *Healing*
+K:420:/300 # Life
+K:421:/300 # Self-Knowledge
+K:422:/300 # *Enlightenment*
+K:437:/300 # Cure Light Wounds
+K:438:/300 # Clumsiness
+K:439:/300 # Sickliness
+K:583:/300 # Invisibility
+K:892:/300 # Cure Light Insanity
+K:893:/300 # Cure Serious Insanity
+K:894:/300 # Cure Critical Insanity
+K:895:/300 # Cure Insanity
+K:901:/300 # Chauve-Souris
+K:909:/300 # Learning
+K:921:/300 # *Restore Mana*
+K:1029:/300 # Blood
+K:717:/300 # Flask of Acid
+
+##### Runes #####
+
+K:679:/100 # Rune of Light
+K:680:/101 # Rune of Darkness (reversed rune for Light)
+K:681:/102 # Rune of Nexus (reversed rune for Inertia)
+K:682:/103 # Rune of Nether (reversed rune)
+K:683:/104 # Rune of Chaos (reversed rune)
+K:684:/105 # Rune of Mana
+K:685:/106 # Rune of Confusion
+K:686:/107 # Rune of Inertia
+K:687:/108 # Rune of Electricity
+K:688:/109 # Rune of Fire
+K:689:/110 # Rune of Water
+K:690:/111 # Rune of Gravity (reversed rune for Time)
+K:691:/112 # Rune of Frost
+K:692:/113 # Rune of Acid (reversed rune for Poison)
+K:693:/114 # Rune of Poison
+K:694:/115 # Rune of Time
+K:695:/116 # Rune of Sound
+K:696:/117 # Rune of Shards
+K:697:/118 # Rune of Hellfire (reversed rune for Fire)
+K:698:/119 # Rune of Force
+K:699:/120 # Rune of Disenchantment (reversed rune for Mana)
+
+##### Lights #####
+
+# U:39:/400 # Unknown Light
+
+K:346:/400 # Wooden Torch
+K:527:/400 # Everburning Torch
+K:347:/401 # Brass Lantern
+K:525:/402 # Dwarven Lantern
+K:530:/403 # Feanorian Lamp
+
+K:476:/404 # Palantir
+K:675:/404 # Palantir
+
+K:500:/405 # Phial
+K:661:/405 # Phial
+
+K:501:/406 # Star
+
+K:502:/407 # Arkenstone
+K:647:/407 # Stone
+K:652:/407 # Anchor
+
+##### Shovels and Picks #####
+
+# U:20:/500 # Unknown digger
+
+K:84:/500 # Shovel
+K:85:/500 # Gnomish Shovel
+K:86:/500 # Dwarven Shovel
+
+K:28:/501 # Mattock
+
+K:87:/502 # Pick
+K:88:/502 # Orcish Pick
+K:89:/502 # Dwarven Pick
+K:1032:/502 # Battered Pick
+
+##### Edged Weapons #####
+
+# U:23:/600 # Unknown sword-type weapon
+
+K:43:/600 # Dagger
+K:30:/601 # Broken Dagger
+K:35:/602 # Short Sword
+K:46:/603 # Smallsword
+K:37:/624 # Espadon
+K:42:/604 # Long Sword
+K:777:/605 # Shadow Blade
+K:778:/605 # Bluesteel Blade
+K:31:/606 # Bastard Sword
+K:47:/607 # Broken Sword
+K:41:/608 # Katana
+K:721:/609 # Dark Sword
+K:32:/610 # Scimitar
+K:33:/611 # Tulwar
+K:34:/612 # Broad Sword
+K:36:/613 # Blade of Chaos
+K:38:/614 # Main Gauche
+K:39:/615 # Cutlass
+K:40:/616 # Executioner's Sword
+K:44:/617 # Rapier
+K:45:/618 # Sabre
+K:524:/619 # Zweihander
+K:548:/619 # Greatsword
+K:545:/620 # Flamberge
+K:546:/621 # Claymore
+K:547:/622 # Kampilan
+K:554:/623 # Basillard
+
+##### Blunt Weapons #####
+
+# U:21:/700 # Unknown blunt weapon
+
+K:48:/700 # Ball-and-Chain
+K:49:/701 # Whip
+K:50:/702 # Flail
+K:51:/703 # Two-Handed Flail
+K:52:/704 # Morning Star
+K:53:/705 # Mace
+K:54:/706 # Quarterstaff
+K:55:/707 # War Maul
+K:56:/708 # Lead-Filled Mace
+K:57:/709 # Mace of Disruption
+K:58:/710 # War Hammer
+K:399:/711 # Great Hammer
+K:498:/712 # Mighty Hammer
+K:529:/713 # Three Piece Rod
+K:542:/714 # Club
+K:915:/715 # Scourge
+K:983:/716 # Demon Hammer
+K:984:/717 # Scourge of Repentance
+
+##### Axes #####
+
+# U:24:/800 # Unknown Axe
+
+K:59:/814 # Beaked Axe
+K:67:/801 # Great Axe
+K:68:/802 # Battle Axe
+K:69:/803 # Heavy War Axe
+K:70:/804 # Broad Axe
+K:385:/805 # Executioner Axe
+K:386:/806 # Hatchet
+K:387:/807 # Double-Headed War Axe
+K:533:/808 # Cleaver
+K:803:/809 # Double-Bitted Axe
+K:804:/810 # Light War Axe
+K:805:/811 # Slaughter Axe
+K:919:/812 # Thunder Axe
+K:999:/813 # Infernal Axe
+K:1033:/814 # Tomahawk
+
+##### Polearms #####
+
+# U:22:/900 # Unknown Polearm
+
+K:60:/900 # Glaive
+K:61:/901 # Halberd
+K:62:/902 # Awl-Pike
+K:63:/903 # Pike
+K:64:/904 # Spear
+K:65:/905 # Trident
+K:66:/906 # Lance
+K:71:/907 # Scythe
+K:72:/908 # Scythe of Slicing
+K:528:/909 # Great Spear
+K:537:/913 # Sickle
+K:538:/911 # Dragon Lance
+K:543:/912 # Broad Spear
+K:544:/913 # Rhomphaia
+K:551:/914 # Fauchard
+K:552:/915 # Guisarme
+K:553:/916 # Heavy Lance
+K:985:/917 # Hunting Spear
