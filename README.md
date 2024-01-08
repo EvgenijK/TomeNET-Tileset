@@ -23,5 +23,5 @@ There are two known problems with using graphics right now:
 
 - [monster list shows wrong tiles](https://github.com/TomenetGame/tomenet/issues/50)  
 - [interface crash and packet errors if there is no graphic tiles for "Floor" features](https://github.com/TomenetGame/tomenet/issues/51)
-- Windows: in character overview window items that have tiles are not displayed correctly
+- in character overview window items that have tiles are not displayed correctly
 - Windows: game launch take much more time (few minutes)
