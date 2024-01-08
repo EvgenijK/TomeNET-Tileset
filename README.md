@@ -15,7 +15,13 @@ graphic_tiles		16x22sv
 ```
 
 ### Windows
-
+1) put `16x22sv.bmp` in your `TomeNET/lib/xtra/graphics` folder (Create if doesn't exist) 
+2) put `raphics-16x22sv.prf` in your `C:/Users/%USERNAME%/TomeNET-user` folder
+3) configure `TomeNET.ini`: find and update graphics setup lines
+```
+Graphics=1
+GraphicTiles=16x22sv
+```
 
 ## Problems
 
