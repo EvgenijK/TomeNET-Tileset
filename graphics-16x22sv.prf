@@ -1,13 +1,13 @@
-# File: graphics-16x22tg.prf
+# File: graphics-16x22sv.prf
 #
-# TomeNET graphics redefinitions for 16x22tg.bmp file.
+# TomeNET graphics redefinitions for 16x22sv.bmp file.
 # This file defines special attr/char mappings for use in "graphics" mode.
 #
 
 ################# Floors #################
 
 # Floors
-F:1:/0 # Open floor (without it i have packet errors and friquent client crashes)
+F:0:/0 # nothing floor (without it i have packet errors and friquent client crashes)
 
 ################# Objects #################
 
