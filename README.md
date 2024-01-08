@@ -2,6 +2,13 @@
 
 This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
+## Example game view
+
+![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/faf02db6-b696-45da-9ac8-9a275c831904)
+
+![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/57f58e1c-888c-4b5f-bd5c-3d54cb7cdec8)
+![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/0e9b8170-d9d9-44f1-bb44-a60d39145272)
+
 ## How to setup
 
 ### Linux 
