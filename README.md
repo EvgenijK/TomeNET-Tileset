@@ -25,7 +25,7 @@ GraphicTiles=16x22sv
 
 ## Problems
 
-There are two known problems with using graphics right now:
+There are some known problems with using graphics right now:
 
 - [monster list shows wrong tiles](https://github.com/TomenetGame/tomenet/issues/50)  
 - [interface crash and packet errors if there is no graphic tiles for "Floor" features](https://github.com/TomenetGame/tomenet/issues/51)
