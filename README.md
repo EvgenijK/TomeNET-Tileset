@@ -25,8 +25,10 @@ But will be more!)
 
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/faf02db6-b696-45da-9ac8-9a275c831904)
 
-![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/57f58e1c-888c-4b5f-bd5c-3d54cb7cdec8)
+![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/85b4b989-818b-4223-a7c4-64137b0e30a0)
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/0e9b8170-d9d9-44f1-bb44-a60d39145272)
+![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/12a6f97a-3d10-455d-96cb-71b609ffdf78)
+
 
 ## How to setup
 
