@@ -2,6 +2,25 @@
 
 This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
+Its still in development.  
+Right now there are tiles only for:
+- Mushrooms
+- Scrolls 
+- Tomes
+- Wands
+- Rods
+- Staves
+- Potions
+- Runes
+- Lights
+- Diggers
+- Swords
+- Blunts
+- Axes
+- Polearms
+
+But will be more!)
+
 ## Example game view
 
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/faf02db6-b696-45da-9ac8-9a275c831904)
