@@ -506,3 +506,45 @@ K:551:/914 # Fauchard
 K:552:/915 # Guisarme
 K:553:/916 # Heavy Lance
 K:985:/917 # Hunting Spear
+
+##### Bows, Crossbows, Slings #####
+
+# U:19:/1000 # Unknows shooter
+
+# K:73:/1000 # Short Bow
+# K:74:/1001 # Long Bow
+# K:75:/1002 # Light Crossbow
+# K:76:/1003 # Heavy Crossbow
+# K:77:/1004 # Sling
+
+##### Missiles #####
+
+# U:17:/1100 # Unknows Arrow
+
+# K:78:/1100 # Arrow 1d4
+# K:79:/1101 # Seeker Arrow 3d4
+# K:465:/1100 # Silver Arrow 2d4 kill_undead
+# K:811:/1100 # Magic Arrow 1d4
+# K:990:/1102 # Charred Arrow 0d0
+
+# I:18:/1103 # Unknows Bolt
+
+# K:80:/1103 # Bolt 1d5
+# K:81:/1104 # Seeker Bolt 3d5
+# K:444:/1103 # Magic Bolt 1d5
+# K:466:/1103 # Silver Bolt 2d5 kill_undead
+# K:991:/1105 # Charred Bolt 0d0
+
+# I:16:/1106 # Unknows Shot
+
+# K:82:/1106 # Rounded Pebble 1d2
+# K:83:/1107 # Iron Shot 1d4
+# K:196:/1107 # Mithril Shot 3d3
+# K:445:/1107 # Magic Shot 1d3
+# K:989:/1108 # Charred Shot 0d0
+
+##### Mage staffs  #####
+
+# I:6:/1200 # Unknows Mage staff
+
+# K:577:/1200 # Mage Staff
