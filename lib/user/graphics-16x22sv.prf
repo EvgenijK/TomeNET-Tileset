@@ -109,7 +109,7 @@ K:1031:/302 # Cheque
 K:1038:/302 # Dungeon-fleeing Certificate
 K:1039:/302 # Horned Reaper's Autograph
 
-K:757:/302 # & Spell Scroll~ of #
+K:757:/302 # Spell Scroll
 
 ##### Tomes #####
 
@@ -162,9 +162,9 @@ K:380:/303 # Tome of Spirits
 K:384:/303 # Corrupted Tome of Chaos
 K:447:/303 # Tainted Tome of Unlife
 
-K:996:/304 #& Greater Crystal of Psycho-Power
-K:997:/304 #& Greater Crystal of Attunement
-K:998:/304 #& Greater Crystal of Mental Intrusion
+K:996:/304 # Greater Crystal of Psycho-Power
+K:997:/304 # Greater Crystal of Attunement
+K:998:/304 # Greater Crystal of Mental Intrusion
 
 ##### Wands #####
 
@@ -509,7 +509,7 @@ K:985:/917 # Hunting Spear
 
 ##### Bows, Crossbows, Slings #####
 
-# U:19:/1000 # Unknows shooter
+# U:19:/1000 # Unknown shooter
 
 # K:73:/1000 # Short Bow
 # K:74:/1001 # Long Bow
@@ -519,7 +519,7 @@ K:985:/917 # Hunting Spear
 
 ##### Missiles #####
 
-# U:17:/1100 # Unknows Arrow
+# U:17:/1100 # Unknown Arrow
 
 # K:78:/1100 # Arrow 1d4
 # K:79:/1101 # Seeker Arrow 3d4
@@ -527,7 +527,7 @@ K:985:/917 # Hunting Spear
 # K:811:/1100 # Magic Arrow 1d4
 # K:990:/1102 # Charred Arrow 0d0
 
-# I:18:/1103 # Unknows Bolt
+# U:18:/1103 # Unknown Bolt
 
 # K:80:/1103 # Bolt 1d5
 # K:81:/1104 # Seeker Bolt 3d5
@@ -535,7 +535,7 @@ K:985:/917 # Hunting Spear
 # K:466:/1103 # Silver Bolt 2d5 kill_undead
 # K:991:/1105 # Charred Bolt 0d0
 
-# I:16:/1106 # Unknows Shot
+# U:16:/1106 # Unknown Shot
 
 # K:82:/1106 # Rounded Pebble 1d2
 # K:83:/1107 # Iron Shot 1d4
@@ -543,8 +543,36 @@ K:985:/917 # Hunting Spear
 # K:445:/1107 # Magic Shot 1d3
 # K:989:/1108 # Charred Shot 0d0
 
-##### Mage staffs  #####
+##### Mage staves #####
 
-# I:6:/1200 # Unknows Mage staff
+# U:6:/1200 # Unknown Mage staff
 
 # K:577:/1200 # Mage Staff
+
+##### Shields #####
+
+# U:34:/1300 # Unknown Shield
+
+# K:122:/1300 # Shield of Deflection
+# K:128:/1301 # Small Leather Shield
+# K:129:/1302 # Large Leather Shield
+# K:130:/1303 # Small Metal Shield
+# K:131:/1304 # Large Metal Shield
+# K:414:/1305 # Dragon Shield
+# K:882:/1306 # Orcish Shield
+# K:986:/1307 # Mithril Ancile
+# K:987:/1308 # Adamantite Aegis
+
+##### Rings #####
+
+##### Amulets #####
+
+##### Cloaks #####
+
+##### Helms #####
+
+##### Gloves #####
+
+##### Boots #####
+
+##### Chest Armor #####
