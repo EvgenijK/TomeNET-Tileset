@@ -511,127 +511,188 @@ K:985:/917 # Hunting Spear
 
 # U:19:/1000 # Unknown shooter
 
-# K:73:/1000 # Short Bow
-# K:74:/1001 # Long Bow
-# K:75:/1002 # Light Crossbow
-# K:76:/1003 # Heavy Crossbow
-# K:77:/1004 # Sling
+K:73:/1000 # Short Bow
+K:74:/1001 # Long Bow
+K:75:/1002 # Light Crossbow
+K:76:/1003 # Heavy Crossbow
+K:77:/1004 # Sling
+
+##### Boomerangs #####
+
+# U:19:/100 # Unknown shooter
+
+K:450:/1005 # Small Razor Boomerang
+K:451:/1006 # Razor Boomerang
+K:648:/1007 # Small Wooden Boomerang
+K:649:/1008 # Wooden Boomerang
+K:650:/1009 # Small Metal Boomerang
+K:651:/1010 # Metal Boomerang
 
 ##### Missiles #####
 
 # U:17:/1100 # Unknown Arrow
 
-# K:78:/1100 # Arrow 1d4
-# K:79:/1101 # Seeker Arrow 3d4
-# K:465:/1100 # Silver Arrow 2d4 kill_undead
-# K:811:/1100 # Magic Arrow 1d4
-# K:990:/1102 # Charred Arrow 0d0
+K:78:/1100 # Arrow 1d4
+K:79:/1101 # Seeker Arrow 3d4
+K:465:/1100 # Silver Arrow 2d4 kill_undead
+K:811:/1100 # Magic Arrow 1d4
+K:990:/1102 # Charred Arrow 0d0
 
 # U:18:/1103 # Unknown Bolt
 
-# K:80:/1103 # Bolt 1d5
-# K:81:/1104 # Seeker Bolt 3d5
-# K:444:/1103 # Magic Bolt 1d5
-# K:466:/1103 # Silver Bolt 2d5 kill_undead
-# K:991:/1105 # Charred Bolt 0d0
+K:80:/1103 # Bolt 1d5
+K:81:/1104 # Seeker Bolt 3d5
+K:444:/1103 # Magic Bolt 1d5
+K:466:/1103 # Silver Bolt 2d5 kill_undead
+K:991:/1105 # Charred Bolt 0d0
 
 # U:16:/1106 # Unknown Shot
 
-# K:82:/1106 # Rounded Pebble 1d2
-# K:83:/1107 # Iron Shot 1d4
-# K:196:/1107 # Mithril Shot 3d3
-# K:445:/1107 # Magic Shot 1d3
-# K:989:/1108 # Charred Shot 0d0
+K:82:/1106 # Rounded Pebble 1d2
+K:83:/1107 # Iron Shot 1d4
+K:196:/1107 # Mithril Shot 3d3
+K:445:/1107 # Magic Shot 1d3
+K:989:/1108 # Charred Shot 0d0
 
 ##### Mage staves #####
 
 # U:6:/1200 # Unknown Mage staff
 
-# K:577:/1200 # Mage Staff
+K:577:/1200 # Mage Staff
 
 ##### Shields #####
 
 # U:34:/1300 # Unknown Shield
 
-# K:122:/1300 # Shield of Deflection
-# K:128:/1301 # Small Leather Shield
-# K:129:/1302 # Large Leather Shield
-# K:130:/1303 # Small Metal Shield
-# K:131:/1304 # Large Metal Shield
-# K:414:/1305 # Dragon Shield
-# K:882:/1306 # Orcish Shield
-# K:986:/1307 # Mithril Ancile
-# K:987:/1308 # Adamantite Aegis
+K:122:/1300 # Shield of Deflection
+K:128:/1301 # Small Leather Shield
+K:129:/1302 # Large Leather Shield
+K:130:/1303 # Small Metal Shield
+K:131:/1304 # Large Metal Shield
+K:414:/1305 # Dragon Shield
+K:882:/1306 # Orcish Shield
+K:986:/1307 # Mithril Ancile
+K:987:/1308 # Adamantite Aegis
 
 ##### Rings #####
 
 # U:45:/1400 # Unknown Ring
 
-# K:132:/1400 # Might
-# K:133:/1400 # Cunningness
-# K:134:/1400 # Toughness
-# K:135:/1400 # Prowess
-# K:136:/1400 # Speed
-# K:137:/1400 # Searching
-# K:138:/1400 # Teleportation
-# K:139:/1400 # Slow Digestion
-# K:140:/1400 # Fire Resistance
-# K:141:/1400 # Cold Resistance
-# K:142:/1400 # Feather Falling
-# K:143:/1400 # Poison Resistance
-# K:144:/1400 # Free Action
-# K:145:/1400 # Weakness
-# K:146:/1400 # Flames
-# K:147:/1400 # Acid
-# K:148:/1400 # Ice
-# K:149:/1400 # Woe
-# K:150:/1400 # Stupidity
-# K:151:/1400 # Damage
-# K:152:/1400 # Accuracy
-# K:153:/1400 # Protection
-# K:154:/1400 # Aggravate Monster
-# K:155:/1400 # See Invisible
-# K:156:/1400 # Steadiness
-# K:157:/1400 # Tenacity
-# K:158:/1400 # Preparedness
-# K:159:/1400 # Gallantry
-# K:160:/1400 # Sustain Steadiness
-# K:161:/1400 # Sustain Cunningness
-# K:162:/1400 # Slaying
-# K:425:/1400 # Fear Resistance
-# K:426:/1400 # Light and Darkness Resistance
-# K:427:/1400 # Nether Resistance
-# K:428:/1400 # Nexus Resistance
-# K:429:/1400 # Sound Resistance
-# K:430:/1400 # Confusion Resistance
-# K:431:/1400 # Stone Skin
-# K:432:/1400 # Disenchantment Resistance
-# K:433:/1400 # Chaos Resistance
-# K:434:/1400 # Blindness Resistance
-# K:435:/1400 # Lordly Protection
-# K:436:/1400 # Extra Attacks
-# K:578:/1400 # Lightning
-# K:567:/1400 # Adornment
-# K:586:/1400 # Invisibility
-# K:755:/1400 # Levitation
-# K:809:/1400 # Critical Hits
-# K:810:/1400 # Polymorphing
-# K:890:/1400 # Stealth
+K:132:/1400 # Might
+K:133:/1400 # Cunningness
+K:134:/1400 # Toughness
+K:135:/1400 # Prowess
+K:136:/1400 # Speed
+K:137:/1400 # Searching
+K:138:/1400 # Teleportation
+K:139:/1400 # Slow Digestion
+K:140:/1400 # Fire Resistance
+K:141:/1400 # Cold Resistance
+K:142:/1400 # Feather Falling
+K:143:/1400 # Poison Resistance
+K:144:/1400 # Free Action
+K:145:/1400 # Weakness
+K:146:/1400 # Flames
+K:147:/1400 # Acid
+K:148:/1400 # Ice
+K:149:/1400 # Woe
+K:150:/1400 # Stupidity
+K:151:/1400 # Damage
+K:152:/1400 # Accuracy
+K:153:/1400 # Protection
+K:154:/1400 # Aggravate Monster
+K:155:/1400 # See Invisible
+K:156:/1400 # Steadiness
+K:157:/1400 # Tenacity
+K:158:/1400 # Preparedness
+K:159:/1400 # Gallantry
+K:160:/1400 # Sustain Steadiness
+K:161:/1400 # Sustain Cunningness
+K:162:/1400 # Slaying
+K:425:/1400 # Fear Resistance
+K:426:/1400 # Light and Darkness Resistance
+K:427:/1400 # Nether Resistance
+K:428:/1400 # Nexus Resistance
+K:429:/1400 # Sound Resistance
+K:430:/1400 # Confusion Resistance
+K:431:/1400 # Stone Skin
+K:432:/1400 # Disenchantment Resistance
+K:433:/1400 # Chaos Resistance
+K:434:/1400 # Blindness Resistance
+K:435:/1400 # Lordly Protection
+K:436:/1400 # Extra Attacks
+K:578:/1400 # Lightning
+K:567:/1400 # Adornment
+K:586:/1400 # Invisibility
+K:755:/1400 # Levitation
+K:809:/1400 # Critical Hits
+K:810:/1400 # Polymorphing
+K:890:/1400 # Stealth
 
 ## Artifact rings 
 
-# K:479:/1400 # The Ring of Durin 
-# K:506:/1400 # The Ring of Barahir 
-# K:507:/1400 # The Ring of Tulkas 
-# K:508:/1400 # The Ring of Power 'Narya'
-# K:509:/1400 # The Ring of Power 'Nenya' 
-# K:510:/1400 # The Ring of Power 'Vilya'
-# K:511:/1400 # The Ring of Power 'The One Ring'
-# K:582:/1400 # The Ring of F'lar 
-# K:770:/1400 # The Ring of Phasing
-# K:785:/1400 # The Nine Rings
+K:479:/1401 # The Ring of Durin
+K:506:/1402 # The Ring of Barahir
+K:507:/1403 # The Ring of Tulkas
+K:508:/1404 # The Ring of Power 'Narya'
+K:509:/1405 # The Ring of Power 'Nenya'
+K:510:/1406 # The Ring of Power 'Vilya'
+K:511:/1407 # The Ring of Power 'The One Ring'
+K:582:/1408 # The Ring of F'lar
+K:770:/1409 # The Ring of Phasing
+K:785:/1410 # The Nine Rings of Nazgul
 
 ##### Amulets #####
+
+# U:40:/1500 # Unknown Amulet
+
+# K:163:/1500 # Brilliance
+# K:164:/1500 # Charisma
+# K:165:/1500 # Searching
+# K:166:/1500 # Teleportation
+# K:167:/1500 # Slow Digestion
+# K:168:/1500 # Acid Resistance
+# K:169:/1500 # Adornment
+# K:171:/1500 # the Magi
+# K:172:/1500 # Doom
+# K:467:/1500 # Lightning Resistance
+# K:468:/1500 # Wisdom
+# K:469:/1500 # Regeneration
+# K:470:/1500 # Infra-vision
+# K:471:/1500 # Devotion
+# K:472:/1500 # Weaponmastery
+# K:473:/1500 # Trickery
+# K:474:/1500 # Telepathy
+# K:475:/1500 # Sustenance
+# K:516:/1500 # *Immortality*
+# K:521:/1500 # Anti-Magic
+# K:522:/1500 # Anti-Teleportation
+# K:523:/1500 # Resistance
+# K:572:/1500 # Nothing
+# K:779:/1500 # Serpents
+# K:885:/1500 # Terken
+# K:887:/1500 # Speed
+# K:888:/1500 # the Highlands
+# K:889:/1500 # the Moon
+# K:891:/1500 # Reflection
+# K:896:/1500 # Rage
+# K:897:/1500 # Life Saving
+# K:910:/1500 # Mana-charging
+# K:920:/1500 # *Invincibility*
+# K:934:/1500 # Talisman~
+# K:975:/1500 # *Invulnerability*
+# K:979:/1500 # the Highlands
+
+## Artifact amulets
+
+# K:29:/1500 # The Blue Stone 'Toris Mejistos'
+# K:477:/1500 # The Elfstone 'Elessar'
+# K:478:/1500 # The Jewel 'Evenstar'
+# K:503:/1500 # The Amulet of Carlammas
+# K:504:/1500 # The Amulet of Ingwe
+# K:505:/1500 # The Necklace 'Nauglamir'
+# K:927:/1500 # The Amulet of Grom, the Wyrm Hunter
+# K:935:/1500 # The Amulet 'Spirit Shard'
 
 ##### Cloaks #####
 
