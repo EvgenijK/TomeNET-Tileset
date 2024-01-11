@@ -7,7 +7,228 @@
 ################# Floors #################
 
 # Floors
-F:0:/0 # nothing floor (without it i have packet errors and friquent client crashes)
+F:1:/25 # Open floor (without it i have packet errors and friquent client crashes)
+
+### "p" monsters
+
+## tier 0 "p"s (no graphic remap)
+# R:31:/ # Level=2 NAME='Novice warrior' Comments=
+# R:32:/ # Level=2 NAME='Novice rogue' Comments=
+# R:33:/ # Level=2 NAME='Novice priest' Comments=
+# R:34:/ # Level=2 NAME='Novice mage' Comments=
+# R:71:/ # Level=4 NAME='Novice ranger' Comments=
+# R:81:/ # Level=6 NAME='Novice mage' Comments=
+# R:85:/ # Level=4 NAME='Novice paladin' Comments=
+# R:97:/ # Level=6 NAME='Novice priest' Comments=
+# R:98:/ # Level=6 NAME='Novice warrior' Comments=
+# R:104:/ # Level=6 NAME='Novice rogue' Comments=
+# R:16:/ # Level=8 NAME='Novice ranger' Comments=
+# R:135:/ # Level=8 NAME='Novice paladin' Comments=
+# R:138:/ # Level=10 NAME='Bandit' Comments=
+# R:187:/ # Level=10 NAME='Brigand' Comments=
+# R:204:/ # Level=12 NAME='Swordsman' Comments=
+# R:228:/ # Level=13 NAME='Illusionist' Comments=
+# R:988:/ # Level=4 NAME='Novice mindcrafter' Comments=
+# R:1032:/ # Level=15 NAME='Positivist' Comments=
+
+## tier I "p"s
+# tier I "p" warriors: cannot summon
+R:360:/0 # Level=23 NAME='Hardened warrior' Comments=p I
+R:364:/0 # Level=23 NAME='Master rogue' Comments=p I
+R:473:/0 # Level=32 NAME='Ninja' Comments=p I
+R:520:/0 # Level=35 NAME='Dagashi' Comments=p I
+R:1035:/1 # Level=20 NAME='Unbeliever' Comments=p I with minus under head
+R:1036:/1 # Level=30 NAME='Unbeliever' Comments=p I with minus under head
+R:334:/0 # Level=20 NAME='Paladin' Comments=p I
+R:358:/0 # Level=23 NAME='Jade monk' Comments=p I
+R:430:/0 # Level=28 NAME='Black knight' Comments=p I
+R:485:/0 # Level=33 NAME='Anti-paladin' Comments=p I
+
+# tier I "p" mages: ranged with summons
+R:229:/2 # Level=13 NAME='Druid' Comments=p I with hollow thorns and an eye
+R:333:/2 # Level=20 NAME='Ranger' Comments=p I with hollow thorns and an eye
+R:437:/2 # Level=28 NAME='Mage' Comments=p I with hollow thorns and an eye
+R:213:/2 # Level=12 NAME='Priest' Comments=p I with hollow thorns and an eye
+R:1005:/2 # Level=17 NAME='Cultist' Comments=p I with hollow thorns and an eye
+
+# tier I "p" hybrids: melee with magic(summons)
+R:150:/3 # Level=20 NAME='Mindcrafter' Comments=p I with hollow thorns
+R:976:/3 # Level=33 NAME='Mystic' Comments=p I with hollow thorns
+
+## tier II "p"s
+
+# tier II "p" warriors: cannot summon
+R:281:/4 # Level=45 NAME='Berserker' Comments=p II
+R:480:/4 # Level=33 NAME='Ivory monk' Comments=p II
+R:504:/4 # Level=34 NAME='Master thief' Comments=p II
+R:1037:/5 # Level=50 NAME='Master Unbeliever' Comments=p II with minus under head
+R:1046:/4 # Level=40 NAME='Swordsmaster' Comments=p II
+# R:1008:/ # Level=45 NAME='Avatar of Nyarlathotep' Comments=// NO TILE protected at server CHANGER
+
+# tier II "p" mages: ranged with summons
+R:626:/6 # Level=40 NAME='Sorcerer' Comments=p II with hollow thorns and an eye
+R:559:/6 # Level=36 NAME='Necromancer' Comments=p II with hollow thorns and an eye
+R:624:/6 # Level=40 NAME='Enchantress' Comments=p II with hollow thorns and an eye
+R:677:/6 # Level=40 NAME='Patriarch' Comments=p II with hollow thorns and an eye
+R:979:/6 # Level=36 NAME='Demonologist' Comments=p II with hollow thorns and an eye
+
+# tier II "p" hybrids: melee with magic(summons)
+R:486:/7 # Level=37 NAME='Chaos master' Comments=p II with hollow thorns
+R:585:/7 # Level=38 NAME='Death knight' Comments=p II with hollow thorns
+R:433:/7 # Level=28 NAME='Clairvoyant' Comments=p II with hollow thorns
+R:635:/7 # Level=40 NAME='Wyrd sister' Comments=p II with hollow thorns
+R:985:/7 # Level=50 NAME='Master mystic' Comments=p II with hollow thorns
+
+## tier III "p"s
+
+# "p" warriors: cannot summon
+R:684:/8 # Level=46 NAME='Grand master thief' Comments=p III
+R:1038:/9 # Level=57 NAME='True Believer' Comments=p III with minus under head
+R:1047:/8 # Level=60 NAME='Grand Swordsmaster' Comments=p III
+R:1068:/8 # Level=97 NAME='Minion of Doom' Comments=p III
+# R:954:/8 # Level=61 NAME='Dolphiner' Comments=p III SPECIAL watery
+
+# "p" mages: ranged with summons
+R:726:/10 # Level=54 NAME='Old Sorcerer' Comments=p III with hollow thorns and an eye
+R:1006:/10 # Level=47 NAME='Cult leader' Comments=p III with hollow thorns and an eye
+R:625:/10 # Level=41 NAME='Ranger chieftain' Comments=p III actually p II hard with hollow thorns and an eye
+
+# "p" hybrids: melee with magic(summons)
+R:986:/11 # Level=57 NAME='Grand master mystic' Comments=p III with hollow thorns
+R:719:/11 # Level=52 NAME='Hell knight' Comments=p III with hollow thorns
+R:787:/11 # Level=40 NAME='Master mindcrafter' Comments=p III with hollow thorns
+R:687:/11 # Level=44 NAME='Knight Templar' Comments=p III with hollow thorns
+# R:725:/ # Level=60 NAME='Lord of Chaos' Comments=// NO TILE protected at server CHANGER
+
+# special "p"s
+#R:681:/228 # Level=45 NAME='Warrior of the Dawn' Comments=p SPECIAL multiple warriors.. Clones? Shadow?
+
+### "D" - Dragons
+
+## tier 0 "D"s
+
+# "D" warriors: cannot summon (no graphic remap)
+#R:589:/ # Level=40 NAME='Ancient blue dragon' Comments=
+#R:590:/ # Level=40 NAME='Ancient bronze dragon' Comments=
+#R:605:/ # Level=40 NAME='Ancient white dragon' Comments=
+#R:606:/ # Level=40 NAME='Ancient green dragon' Comments=
+#R:612:/ # Level=41 NAME='Ancient black dragon' Comments=
+#R:631:/ # Level=45 NAME='Death drake' Comments=
+#R:632:/ # Level=41 NAME='Ancient red dragon' Comments=
+#R:633:/ # Level=41 NAME='Ancient gold dragon' Comments=
+#R:634:/ # Level=45 NAME='Great crystal drake' Comments=
+#R:663:/ # Level=43 NAME='Ancient multi-hued dragon' Comments=
+#R:664:/ # Level=45 NAME='Ethereal dragon' Comments=
+## R:902:/ # Level=41 NAME='Ancient dragon turtle' Comments=
+#R:1097:/ # Level=41 NAME='Ancient silver dragon' Comments=
+
+# "D" wraiths: pass wall
+R:664:/26 # Level=45 NAME='Ethereal dragon' Comments=D 0 with grid holes
+R:631:/26 # Level=45 NAME='Death drake' Comments=D 0 with grid holes
+
+## tier I "D"s
+
+# "D" warriors: cannot summon (no graphic remap)
+#R:689:/12 # Level=55 NAME='Dracolich' Comments=D I drakolich
+#R:691:/12 # Level=55 NAME='Dracolisk' Comments=D I dracolisk
+#R:716:/12 # Level=63 NAME='Great Storm Wyrm' Comments=D I wyrm
+#R:729:/12 # Level=63 NAME='Great Ice Wyrm' Comments=D I wyrm
+#R:744:/12 # Level=67 NAME='Great Hell Wyrm' Comments=D I wyrm
+#R:903:/12 # Level=52 NAME='Fastitocalon' Comments=D I turtle
+#R:926:/12 # Level=63 NAME='Great Swamp Wyrm' Comments=D I wyrm
+#R:927:/12 # Level=67 NAME='Great Bile Wyrm' Comments=D I wyrm
+#R:990:/12 # Level=63 NAME='Great Wyrm of Perplexity' Comments=D I wyrm
+#R:992:/12 # Level=67 NAME='Great Wyrm of Thunder' Comments=D I wyrm
+#R:1098:/12 # Level=65 NAME='Great Wyrm of Radiance' Comments=D I wyrm
+
+# Dragonroders, also "D" warriors: cannot summon (no graphic remap)
+#R:943:/211 # Level=30 NAME='Green Dragonrider' Comments=D I SPECIAL dragonrider
+#R:944:/211 # Level=40 NAME='Blue Dragonrider' Comments=D I SPECIAL dragonrider
+#R:945:/211 # Level=50 NAME='Brown Dragonrider' Comments=D I SPECIAL dragonrider
+#R:946:/211 # Level=60 NAME='Bronze Dragonrider' Comments=D I SPECIAL dragonrider
+
+## tier II "D"s
+
+# "D" hybrids: melee with magic(summons)
+R:771:/13 # Level=75 NAME='Great Wyrm of Chaos' Comments=D II wyrm with hollow thorns
+R:772:/13 # Level=75 NAME='Great Wyrm of Law' Comments=D II wyrm with hollow thorns
+R:781:/13 # Level=77 NAME='Sky Drake' Comments=D II dragon with hollow thorns
+
+# Dragonroders(hybrids): melee with magic(summons)
+# R:947:/212 # Level=70 NAME='Gold Dragonrider' Comments=D II SPECIAL dragonrider
+
+## tier III "D"s
+# "D" warriors: cannot summon
+R:778:/14 # Level=80 NAME='Great Wyrm of Many Colours' Comments=D III wyrm with solid thorns
+# "D" hybrids: melee with magic(summons)
+R:773:/15 # Level=80 NAME='Great Wyrm of Balance' Comments=D III wyrm with hollow thorns
+
+## tier IV "D"s
+# "D" hybrids: melee with magic(summons)
+R:835:/16 # Level=85 NAME='Great Wyrm of Power' Comments=D IV wyrm with hollow thorns
+
+# special "D"s (no graphic remap)
+# R:1101:/213 # Level=71 NAME='Great Dragon of Bad Luck' Comments=D SPECIAL arrow down pass_walls
+
+# "U" - Demons
+# IDEA - indicate diggers
+
+## tier "-1" "U"s
+
+# "U" warriors: cannot summon (no graphic remap)
+# R:511:/ # Level=34 NAME='Bloodletter of Khorne' Comments=
+# R:1048:/ # Level=35 NAME='Incubus' Comments=
+# R:1049:/ # Level=35 NAME='Succubus' Comments=
+# R:596:/ # Level=38 NAME='Nightgaunt' Comments=
+# R:597:/ # Level=38 NAME='Baron of hell' Comments=
+# R:987:/ # Level=38 NAME='Erinyes' Comments=
+# R:636:/ # Level=40 NAME='Vrock' Comments=
+# R:912:/ # Level=40 NAME='Water demon' Comments=
+
+## tier 0 "U"s
+
+# "U" hybrids: melee with magic(summons)
+R:647:/17 # Level=41 NAME='Byakhee' Comments=U 0
+R:650:/17 # Level=41 NAME='Formless spawn of Tsathoggua' Comments=U 0
+R:651:/17 # Level=42 NAME='Hunting horror' Comments=U 0
+R:665:/17 # Level=43 NAME='Dark young of Shub-Niggurath' Comments=U 0
+R:980:/17 # Level=41 NAME='Hezrou' Comments=U 0
+R:981:/17 # Level=43 NAME='Glabrezu' Comments=U 0
+R:982:/17 # Level=45 NAME='Nalfeshnee' Comments=U 0
+R:983:/17 # Level=47 NAME='Marilith' Comments=U 0
+
+## tier I "U"s
+
+# "U" warriors: cannot summon
+R:746:/17 # Level=55 NAME='Bloodthirster' Comments=U I
+
+# "U" hybrids: melee with magic(summons)
+R:708:/19 # Level=55 NAME='Barbazu' Comments=U I  with eyes
+R:724:/19 # Level=53 NAME='Great unclean one' Comments=U I with eyes
+R:733:/19 # Level=54 NAME='Lord of Change' Comments=U I with eyes
+R:751:/19 # Level=61 NAME='Bile Demon' Comments=U I with eyes
+R:761:/19 # Level=65 NAME='Osyluth' Comments=U I with eyes
+
+# "U" hybrids: melee with magic(summons) diggers
+R:707:/20 # Level=51 NAME='Nycadaemon' Comments=U I with eyes and scars
+R:984:/20 # Level=49 NAME='Lesser Balrog' Comments=U I with eyes and scars
+
+## tier II "U"s
+
+# "U" warriors: cannot summon
+R:804:/22 # Level=77 NAME='Cyberdemon' Comments=U II, special char
+
+# "U" hybrids: melee with magic(summons)
+R:775:/21 # Level=69 NAME='Gelugon' Comments=U II with eyes
+R:800:/21 # Level=77 NAME='Pit Fiend' Comments=U II with eyes
+R:783:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
+R:1134:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
+
+## tier III "U"s
+# "U" hybrids: melee with magic(summons)
+R:795:/23 # Level=80 NAME='Greater Balrog' Comments=U III with eyes and scars
+R:824:/24 # Level=86 NAME='Star-spawn of Cthulhu' Comments=U III with eyes
+
 
 ################# Objects #################
 
@@ -96,7 +317,7 @@ K:881:/302 # House creation
 K:898:/302 # Lottery
 K:899:/302 # Identify Everything
 K:900:/302 # Vermin Control
-K:908:/302 # The Gazette
+K:908:/302 # The Gazette [Press 'r' to read]
 K:912:/302 # Cancellation
 K:914:/302 # Wilderness Mapping
 K:976:/302 # Highlander Victory Deed
@@ -105,9 +326,9 @@ K:992:/302 # Master Gladiator's Deed
 K:993:/302 # Gladiator's Deed
 K:994:/302 # Vanquisher's Deed
 K:995:/302 # Gladiator's Entrance
-K:1031:/302 # Cheque
-K:1038:/302 # Dungeon-fleeing Certificate
-K:1039:/302 # Horned Reaper's Autograph
+K:1031:/302 # :Cheque
+K:1038:/302 # :Dungeon-fleeing Certificate
+K:1039:/302 # :Horned Reaper's Autograph
 
 K:757:/302 # & Spell Scroll~ of #
 
@@ -115,56 +336,56 @@ K:757:/302 # & Spell Scroll~ of #
 
 U:111:/303 # Unknown Tome
 
-K:330:/303 # Tome of Magical Energy
-K:331:/303 # Tome of the Eternal Flame
-K:332:/303 # Tome of the Blowing Wind
-K:333:/303 # Tome of the Impenetrable Earth
-K:334:/303 # Tome of the Everrunning Wave
-K:335:/303 # Tome of Translocation
-K:336:/303 # Tome of the Tree
-K:337:/303 # Tome of Knowledge
-K:515:/303 # Handbook of Wind and Weather
-K:738:/303 # Handbook of Beginner Cantrips
-K:756:/303 # Tome of the Time
-K:763:/303 # Unholy Tome of the Hellflame
-K:787:/303 # Adventurer's Guide to Middle Earth
-K:848:/303 # Handbook of Manipulation
-K:849:/303 # Handbook of Alleviation
-K:860:/303 # Golem Scroll of Attack
-K:861:/303 # Golem Scroll of Following
-K:862:/303 # Golem Scroll of Guard
-K:907:/303 # The Book of the Dead
-K:922:/303 # Tome of Holy Offense
-K:923:/303 # Tome of Holy Defense
-K:924:/303 # Tome of Holy Curing
-K:925:/303 # Tome of Holy Support
-K:950:/303 # Tome of Arcane Lore
-K:951:/303 # Tome of Physical Lore
-K:942:/303 # White Knight
-K:948:/303 # Black Knight
-K:956:/303 # Elementalist's Handbook
-K:957:/303 # Handbook for Treasure Hunting
-K:958:/303 # Handbook of Piety
-K:959:/303 # Naturalist's Handbook
-K:960:/303 # Destroyer's Handbook
-K:980:/303 # Handbook of Deception
-K:982:/303 # Handbook of Dungeon Keeping
-K:1035:/303 # Handbook of Revelation
-K:1041:/303 # Handbook of Transportation
-K:1036:/303 # Handbook of Novice Etiquette
-K:1037:/303 # Handbook of First Visions
-K:974:/303 # Astral Grimoire
-K:1001:/303 # Codex
-K:1002:/303 # Spellbook
-K:1003:/303 # Grimoire
-K:379:/303 # Tome of Shadows
-K:380:/303 # Tome of Spirits
-K:384:/303 # Corrupted Tome of Chaos
-K:447:/303 # Tainted Tome of Unlife
+K:330:/303 # & Tome~ of Magical Energy
+K:331:/303 # & Tome~ of the Eternal Flame
+K:332:/303 # & Tome~ of the Blowing Wind
+K:333:/303 # & Tome~ of the Impenetrable Earth
+K:334:/303 # & Tome~ of the Everrunning Wave
+K:335:/303 # & Tome~ of Translocation
+K:336:/303 # & Tome~ of the Tree
+K:337:/303 # & Tome~ of Knowledge
+K:515:/303 # & Handbook~ of Wind and Weather
+K:738:/303 # & Handbook~ of Beginner Cantrips
+K:756:/303 # & Tome~ of the Time
+K:763:/303 # & Unholy Tome~ of the Hellflame
+K:787:/303 # Adventurer's Guide to Middle Earth ['r' to read]
+K:848:/303 # & Handbook~ of Manipulation
+K:849:/303 # & Handbook~ of Alleviation
+K:860:/303 # & Golem Scroll~ of Attack
+K:861:/303 # & Golem Scroll~ of Following
+K:862:/303 # & Golem Scroll~ of Guard
+K:907:/303 # The Book of the Dead [Press 'r' to read]
+K:922:/303 # & Tome~ of Holy Offense
+K:923:/303 # & Tome~ of Holy Defense
+K:924:/303 # & Tome~ of Holy Curing
+K:925:/303 # & Tome~ of Holy Support
+K:950:/303 # & Tome~ of Arcane Lore
+K:951:/303 # & Tome~ of Physical Lore
+K:942:/303 # & White Knight~
+K:948:/303 # & Black Knight~
+K:956:/303 # & Elementalist's Handbook~
+K:957:/303 # & Handbook~ for Treasure Hunting
+K:958:/303 # & Handbook~ of Piety
+K:959:/303 # & Naturalist's Handbook~
+K:960:/303 # & Destroyer's Handbook~
+K:980:/303 # & Handbook~ of Deception
+K:982:/303 # & Handbook~ of Dungeon Keeping
+K:1035:/303 # & Handbook~ of Revelation
+K:1041:/303 # & Handbook~ of Transportation
+K:1036:/303 # & Handbook~ of Novice Etiquette
+K:1037:/303 # & Handbook~ of First Visions
+K:974:/303 # & Astral Grimoire~
+K:1001:/303 # & Codex~
+K:1002:/303 # & Spellbook~
+K:1003:/303 # & Grimoire~[
+K:379:/303 # & Tome~ of Shadows
+K:380:/303 # & Tome~ of Spirits
+K:384:/303 # & Corrupted Tome~ of Chaos
+K:447:/303 # & Tainted Tome~ of Unlife
 
-K:996:/304 #& Greater Crystal of Psycho-Power
-K:997:/304 #& Greater Crystal of Attunement
-K:998:/304 #& Greater Crystal of Mental Intrusion
+K:996:/304 #& Greater Crystal~ of Psycho-Power
+K:997:/304 #& Greater Crystal~ of Attunement`
+K:998:/304 #& Greater Crystal~ of Mental Intrusion
 
 ##### Wands #####
 
@@ -203,6 +424,9 @@ K:566:/305 # Nothing
 K:728:/305 # Wall Creation
 K:813:/305 # Lightning Bolts
 K:913:/305 # Teleport To
+
+#K:810:/305 # & Wand~ of Digging of Thrain
+#K:270:/305 # Tame Monster
 
 ##### Rods #####
 
@@ -324,8 +548,8 @@ K:265:/300 # Neutralize Poison
 K:266:/300 # Restore Mana
 K:267:/300 # Infra-vision
 K:268:/300 # Resistance
-K:348:/300 # Flask of Oil
-K:349:/300 # Empty Bottle
+K:348:/300 # & Flask~ of Oil
+K:349:/300 # & Empty Bottle~
 K:415:/300 # Death
 K:416:/300 # Ruination
 K:417:/300 # Detonations
@@ -346,7 +570,7 @@ K:901:/300 # Chauve-Souris
 K:909:/300 # Learning
 K:921:/300 # *Restore Mana*
 K:1029:/300 # Blood
-K:717:/300 # Flask of Acid
+K:717:/300 # Flask~ of Acid
 
 ##### Runes #####
 
@@ -428,7 +652,7 @@ K:721:/609 # Dark Sword
 K:32:/610 # Scimitar
 K:33:/611 # Tulwar
 K:34:/612 # Broad Sword
-K:36:/613 # Blade of Chaos
+K:36:/613 # Blade~ of Chaos
 K:38:/614 # Main Gauche
 K:39:/615 # Cutlass
 K:40:/616 # Executioner's Sword
@@ -480,29 +704,45 @@ K:533:/808 # Cleaver
 K:803:/809 # Double-Bitted Axe
 K:804:/810 # Light War Axe
 K:805:/811 # Slaughter Axe
-K:919:/812 # Thunder Axe
-K:999:/813 # Infernal Axe
+K:919:/812 # Thunder Axe 6d8 38w
+K:999:/813 # Infernal Axe 7d6 36w
 K:1033:/814 # Tomahawk
 
 ##### Polearms #####
 
 # U:22:/900 # Unknown Polearm
 
-K:60:/900 # Glaive
-K:61:/901 # Halberd
-K:62:/902 # Awl-Pike
-K:63:/903 # Pike
-K:64:/904 # Spear
-K:65:/905 # Trident
-K:66:/906 # Lance
-K:71:/907 # Scythe
-K:72:/908 # Scythe of Slicing
-K:528:/909 # Great Spear
-K:537:/913 # Sickle
-K:538:/911 # Dragon Lance
-K:543:/912 # Broad Spear
-K:544:/913 # Rhomphaia
-K:551:/914 # Fauchard
-K:552:/915 # Guisarme
-K:553:/916 # Heavy Lance
-K:985:/917 # Hunting Spear
+K:60:/900 # Glaive (7d3)
+K:61:/901 # Halberd (4d8)
+K:62:/902 # Awl-Pike (2d9)
+K:63:/903 # Pike (3d9)
+K:64:/904 # Spear (1d5)
+K:65:/905 # Trident (2d7)
+K:66:/906 # Lance (4d9)
+K:71:/907 # Scythe (6d4)
+K:72:/908 # Scythe of Slicing (10d4)
+K:528:/909 # Great Spear (3d7)
+K:537:/913 # Sickle (2d3)
+K:538:/911 # Dragon Lance (4d10)
+K:543:/912 # Broad Spear (1d9)
+K:544:/913 # Rhomphaia (2d4)
+K:551:/914 # Fauchard (2d10)
+K:552:/915 # Guisarme (3d10)
+K:553:/916 # Heavy Lance (4d10)
+K:985:/917 # Hunting Spear (1d6)
+
+##### Bows, Crossbows, Slings #####
+
+# U:19:1000 # Unknown Shooter
+
+K:73:/1000 # Short Bow
+K:74:/1001 # Long Bow
+# K:75:/1002 # Light Crossbow
+# K:76:/1003 # Heavy Crossbow
+# K:77:/1004 # Sling
+
+##### Mage Staff #####
+
+# U:6:/1000 # Unknown Mage Staff
+
+# K:577:/1000 # Mage Staff
