@@ -565,6 +565,72 @@ K:985:/917 # Hunting Spear
 
 ##### Rings #####
 
+# U:45:/1400 # Unknown Ring
+
+# K:132:/1400 # Might
+# K:133:/1400 # Cunningness
+# K:134:/1400 # Toughness
+# K:135:/1400 # Prowess
+# K:136:/1400 # Speed
+# K:137:/1400 # Searching
+# K:138:/1400 # Teleportation
+# K:139:/1400 # Slow Digestion
+# K:140:/1400 # Fire Resistance
+# K:141:/1400 # Cold Resistance
+# K:142:/1400 # Feather Falling
+# K:143:/1400 # Poison Resistance
+# K:144:/1400 # Free Action
+# K:145:/1400 # Weakness
+# K:146:/1400 # Flames
+# K:147:/1400 # Acid
+# K:148:/1400 # Ice
+# K:149:/1400 # Woe
+# K:150:/1400 # Stupidity
+# K:151:/1400 # Damage
+# K:152:/1400 # Accuracy
+# K:153:/1400 # Protection
+# K:154:/1400 # Aggravate Monster
+# K:155:/1400 # See Invisible
+# K:156:/1400 # Steadiness
+# K:157:/1400 # Tenacity
+# K:158:/1400 # Preparedness
+# K:159:/1400 # Gallantry
+# K:160:/1400 # Sustain Steadiness
+# K:161:/1400 # Sustain Cunningness
+# K:162:/1400 # Slaying
+# K:425:/1400 # Fear Resistance
+# K:426:/1400 # Light and Darkness Resistance
+# K:427:/1400 # Nether Resistance
+# K:428:/1400 # Nexus Resistance
+# K:429:/1400 # Sound Resistance
+# K:430:/1400 # Confusion Resistance
+# K:431:/1400 # Stone Skin
+# K:432:/1400 # Disenchantment Resistance
+# K:433:/1400 # Chaos Resistance
+# K:434:/1400 # Blindness Resistance
+# K:435:/1400 # Lordly Protection
+# K:436:/1400 # Extra Attacks
+# K:578:/1400 # Lightning
+# K:567:/1400 # Adornment
+# K:586:/1400 # Invisibility
+# K:755:/1400 # Levitation
+# K:809:/1400 # Critical Hits
+# K:810:/1400 # Polymorphing
+# K:890:/1400 # Stealth
+
+## Artifact rings 
+
+# K:479:/1400 # The Ring of Durin 
+# K:506:/1400 # The Ring of Barahir 
+# K:507:/1400 # The Ring of Tulkas 
+# K:508:/1400 # The Ring of Power 'Narya'
+# K:509:/1400 # The Ring of Power 'Nenya' 
+# K:510:/1400 # The Ring of Power 'Vilya'
+# K:511:/1400 # The Ring of Power 'The One Ring'
+# K:582:/1400 # The Ring of F'lar 
+# K:770:/1400 # The Ring of Phasing
+# K:785:/1400 # The Nine Rings
+
 ##### Amulets #####
 
 ##### Cloaks #####
@@ -576,3 +642,5 @@ K:985:/917 # Hunting Spear
 ##### Boots #####
 
 ##### Chest Armor #####
+
+
