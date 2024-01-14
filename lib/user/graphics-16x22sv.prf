@@ -382,6 +382,8 @@ K:347:/401 # Brass Lantern
 K:525:/402 # Dwarven Lantern
 K:530:/403 # Feanorian Lamp
 
+## Artifact Lights
+
 K:476:/404 # Palantir
 K:675:/404 # Palantir
 
@@ -532,27 +534,27 @@ K:651:/1010 # Metal Boomerang
 
 # U:17:/1100 # Unknown Arrow
 
-K:78:/1100 # Arrow 1d4
-K:79:/1101 # Seeker Arrow 3d4
-K:465:/1100 # Silver Arrow 2d4 kill_undead
-K:811:/1100 # Magic Arrow 1d4
-K:990:/1102 # Charred Arrow 0d0
+K:78:/1100 # Arrow
+K:79:/1101 # Seeker Arrow
+K:465:/1100 # Silver Arrow
+K:811:/1100 # Magic Arrow
+K:990:/1102 # Charred Arrow
 
 # U:18:/1103 # Unknown Bolt
 
-K:80:/1103 # Bolt 1d5
-K:81:/1104 # Seeker Bolt 3d5
-K:444:/1103 # Magic Bolt 1d5
-K:466:/1103 # Silver Bolt 2d5 kill_undead
-K:991:/1105 # Charred Bolt 0d0
+K:80:/1103 # Bolt
+K:81:/1104 # Seeker Bolt
+K:444:/1103 # Magic Bolt
+K:466:/1103 # Silver Bolt
+K:991:/1105 # Charred Bolt
 
 # U:16:/1106 # Unknown Shot
 
-K:82:/1106 # Rounded Pebble 1d2
-K:83:/1107 # Iron Shot 1d4
-K:196:/1107 # Mithril Shot 3d3
-K:445:/1107 # Magic Shot 1d3
-K:989:/1108 # Charred Shot 0d0
+K:82:/1106 # Rounded Pebble
+K:83:/1107 # Iron Shot
+K:196:/1107 # Mithril Shot
+K:445:/1107 # Magic Shot
+K:989:/1108 # Charred Shot
 
 ##### Mage staves #####
 
@@ -576,7 +578,7 @@ K:987:/1308 # Adamantite Aegis
 
 ##### Rings #####
 
-# U:45:/1400 # Unknown Ring
+U:45:/1400 # Unknown Ring
 
 K:132:/1400 # Might
 K:133:/1400 # Cunningness
@@ -644,64 +646,173 @@ K:785:/1410 # The Nine Rings of Nazgul
 
 ##### Amulets #####
 
-# U:40:/1500 # Unknown Amulet
+U:40:/1500 # Unknown Amulet
 
-# K:163:/1500 # Brilliance
-# K:164:/1500 # Charisma
-# K:165:/1500 # Searching
-# K:166:/1500 # Teleportation
-# K:167:/1500 # Slow Digestion
-# K:168:/1500 # Acid Resistance
-# K:169:/1500 # Adornment
-# K:171:/1500 # the Magi
-# K:172:/1500 # Doom
-# K:467:/1500 # Lightning Resistance
-# K:468:/1500 # Wisdom
-# K:469:/1500 # Regeneration
-# K:470:/1500 # Infra-vision
-# K:471:/1500 # Devotion
-# K:472:/1500 # Weaponmastery
-# K:473:/1500 # Trickery
-# K:474:/1500 # Telepathy
-# K:475:/1500 # Sustenance
-# K:516:/1500 # *Immortality*
-# K:521:/1500 # Anti-Magic
-# K:522:/1500 # Anti-Teleportation
-# K:523:/1500 # Resistance
-# K:572:/1500 # Nothing
-# K:779:/1500 # Serpents
-# K:885:/1500 # Terken
-# K:887:/1500 # Speed
-# K:888:/1500 # the Highlands
-# K:889:/1500 # the Moon
-# K:891:/1500 # Reflection
-# K:896:/1500 # Rage
-# K:897:/1500 # Life Saving
-# K:910:/1500 # Mana-charging
-# K:920:/1500 # *Invincibility*
-# K:934:/1500 # Talisman~
-# K:975:/1500 # *Invulnerability*
-# K:979:/1500 # the Highlands
+K:163:/1500 # Brilliance
+K:164:/1500 # Charisma
+K:165:/1500 # Searching
+K:166:/1500 # Teleportation
+K:167:/1500 # Slow Digestion
+K:168:/1500 # Acid Resistance
+K:169:/1500 # Adornment
+K:171:/1500 # the Magi
+K:172:/1500 # Doom
+K:467:/1500 # Lightning Resistance
+K:468:/1500 # Wisdom
+K:469:/1500 # Regeneration
+K:470:/1500 # Infra-vision
+K:471:/1500 # Devotion
+K:472:/1500 # Weaponmastery
+K:473:/1500 # Trickery
+K:474:/1500 # Telepathy
+K:475:/1500 # Sustenance
+K:516:/1500 # *Immortality*
+K:521:/1500 # Anti-Magic
+K:522:/1500 # Anti-Teleportation
+K:523:/1500 # Resistance
+K:572:/1500 # Nothing
+K:779:/1500 # Serpents
+K:885:/1500 # Terken
+K:887:/1500 # Speed
+K:888:/1500 # the Highlands
+K:889:/1500 # the Moon
+K:891:/1500 # Reflection
+K:896:/1500 # Rage
+K:897:/1500 # Life Saving
+K:910:/1500 # Mana-charging
+K:920:/1500 # *Invincibility*
+K:934:/1500 # Talisman~
+K:975:/1500 # *Invulnerability*
+K:979:/1500 # the Highlands
 
 ## Artifact amulets
 
-# K:29:/1501 # The Blue Stone 'Toris Mejistos'
-# K:477:/1502 # The Elfstone 'Elessar'
-# K:478:/1503 # The Jewel 'Evenstar'
-# K:503:/1504 # The Amulet of Carlammas
-# K:504:/1505 # The Amulet of Ingwe
-# K:505:/1506 # The Necklace 'Nauglamir'
-# K:927:/1507 # The Amulet of Grom, the Wyrm Hunter
-# K:935:/1508 # The Amulet 'Spirit Shard'
+K:29:/1501 # The Blue Stone 'Toris Mejistos'
+K:477:/1502 # The Elfstone 'Elessar'
+K:478:/1503 # The Jewel 'Evenstar'
+K:503:/1504 # The Amulet of Carlammas
+K:504:/1505 # The Amulet of Ingwe
+K:505:/1506 # The Necklace 'Nauglamir'
+K:927:/1507 # The Amulet of Grom, the Wyrm Hunter
+K:935:/1508 # The Amulet 'Spirit Shard'
 
 ##### Cloaks #####
 
-##### Helms #####
+# U:35:/1600 # Unknown Cloak
+
+K:90:/1600 # Elven Cloak
+K:123:/1601 # Cloak
+K:124:/1602 # Shadow Cloak
+K:531:/1603 # Fur Cloak
+K:883:/1604 # Kolla
+
+## Artifact Cloaks
+
+K:917:/1605 # Sea-blue Silk Cape
 
 ##### Gloves #####
 
+# U:31:/1700 # Unknown Gloves
+
+K:125:/1700 # Set of Leather Gloves
+K:126:/1701 # Set of Gauntlets
+K:127:/1702 # Set of Cesti
+K:886:/1703 # Set of Elven Gloves
+
 ##### Boots #####
+
+# U:30:/1800 # Unknown Boots
+
+K:91:/1800 #  Pair of Soft Leather Boots
+K:92:/1801 #  Pair of Hard Leather Boots
+K:93:/1802 #  Pair of Metal Shod Boots
+K:884:/1803 #  Pair of Witan Boots
+
+K:1030:/1804 # The Smokin' Boots of Moltor
+
+##### Helms, Crowns #####
+
+## Helms
+
+# U:32:/1900 # Unknown Helm
+
+K:972:/1900 # Cloth Hat
+K:94:/1901 # Hard Leather Cap
+K:95:/1902 # Metal Cap
+K:96:/1903 # Iron Helm
+K:97:/1904 # Steel Helm
+K:413:/1905 # Dragon Helm
+K:967:/1906 # Mithril Helm
+K:988:/1907 # Adamantite Helm
+
+## Crowns
+
+# U:33:/2000 # Unknown Crown
+
+K:98:/2000 # Iron Crown
+K:99:/2001 # Golden Crown
+K:100:/2002 # Jewel Encrusted Crown
+K:378:/2003 # Silver Crown
+
+K:499:/2004 # Massive Iron Crown
+
+K:981:/2005 # Goggles
 
 ##### Chest Armor #####
 
+## Light Armor
+
+# U:36:/2100 # Unknown Light Armor
+
+# K:101:/2100 # Robe
+# K:102:/2100 # Filthy Rag
+# K:103:/2100 # Soft Leather Armour
+# K:104:/2100 # Soft Studded Leather
+# K:105:/2100 # Hard Leather Armour
+# K:106:/2100 # Hard Studded Leather
+# K:107:/2100 # Leather Scale Mail
+# K:535:/2100 # Rhino Hide Armour
+# K:536:/2100 # Serpent Scale Mail
+# K:557:/2100 # Cord Armour
+# K:558:/2100 # Paper Armour
+# K:559:/2100 # Padded Armour
+# K:561:/2100 # Stone and Hide Armour
+# K:646:/2100 # Dragonrider Coat
+# K:933:/2100 # Wyvern Hide Armour
+# K:955:/2100 # Fancy Shirt
+# K:968:/2100 # Frock
+# K:969:/2100 # Tunic
+# K:970:/2100 # Gown
+# K:971:/2100 # Leather Frock
+# K:973:/2100 # Wire Fleece
+# K:1004:/2100 # Costume
+
+## Heavy Armor
+
+# U:37:/2200 # Unknown Heavy Armor
+
+# K:108:/2200 # Metal Scale Mail
+# K:109:/2200 # Chain Mail
+# K:110:/2200 # Rusty Chain Mail
+# K:111:/2200 # Augmented Chain Mail
+# K:112:/2200 # Bar Chain Mail
+# K:113:/2200 # Metal Brigandine Armour
+# K:114:/2200 # Partial Plate Armour
+# K:115:/2200 # Metal Lamellar Armour
+# K:116:/2200 # Full Plate Armour
+# K:117:/2200 # Ribbed Plate Armour
+# K:118:/2200 # Adamantite Plate Mail
+# K:119:/2200 # Mithril Plate Mail
+# K:120:/2200 # Mithril Chain Mail
+# K:121:/2200 # Double Chain Mail
+# K:170:/2200 # Double Ring Mail
+# K:518:/2200 # Heavy Adamantite Plate Armour
+# K:526:/2200 # Splint Mail
+# K:556:/2200 # Ring Mail
+# K:961:/2200 # Heavy Mithril Scale Armour
+# K:962:/2200 # Heavy Mithril Plate Armour
+# K:963:/2200 # Heavy Ribbed Mithril Armour
+# K:964:/2200 # Heavy Adamantite Scale Armour
+# K:965:/2200 # Heavy Adamantite Plate Armour
+# K:966:/2200 # Heavy Ribbed Adamantite Armour
 
