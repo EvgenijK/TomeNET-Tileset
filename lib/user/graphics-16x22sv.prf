@@ -765,12 +765,12 @@ K:981:/2005 # Goggles
 # U:36:/2100 # Unknown Light Armor
 
 # K:101:/2100 # Robe
-# K:102:/2100 # Filthy Rag
-# K:103:/2100 # Soft Leather Armour
-# K:104:/2100 # Soft Studded Leather
-# K:105:/2100 # Hard Leather Armour
-# K:106:/2100 # Hard Studded Leather
-# K:107:/2100 # Leather Scale Mail
+# K:102:/2101 # Filthy Rag
+# K:103:/2102 # Soft Leather Armour
+# K:104:/2103 # Soft Studded Leather
+# K:105:/2104 # Hard Leather Armour
+# K:106:/2105 # Hard Studded Leather
+# K:107:/2106 # Leather Scale Mail
 # K:535:/2100 # Rhino Hide Armour
 # K:536:/2100 # Serpent Scale Mail
 # K:557:/2100 # Cord Armour
