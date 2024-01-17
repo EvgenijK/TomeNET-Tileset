@@ -764,28 +764,28 @@ K:981:/2005 # Goggles
 
 # U:36:/2100 # Unknown Light Armor
 
-# K:101:/2100 # Robe
-# K:102:/2101 # Filthy Rag
-# K:103:/2102 # Soft Leather Armour
-# K:104:/2103 # Soft Studded Leather
-# K:105:/2104 # Hard Leather Armour
-# K:106:/2105 # Hard Studded Leather
-# K:107:/2106 # Leather Scale Mail
-# K:535:/2100 # Rhino Hide Armour
-# K:536:/2100 # Serpent Scale Mail
-# K:557:/2100 # Cord Armour
-# K:558:/2100 # Paper Armour
-# K:559:/2100 # Padded Armour
-# K:561:/2100 # Stone and Hide Armour
-# K:646:/2100 # Dragonrider Coat
-# K:933:/2100 # Wyvern Hide Armour
-# K:955:/2100 # Fancy Shirt
-# K:968:/2100 # Frock
-# K:969:/2100 # Tunic
-# K:970:/2100 # Gown
-# K:971:/2100 # Leather Frock
-# K:973:/2100 # Wire Fleece
-# K:1004:/2100 # Costume
+# K:101:/2100 # Robe 2
+# K:102:/2101 # Filthy Rag 1
+# K:103:/2102 # Soft Leather Armour 4
+# K:104:/2103 # Soft Studded Leather 5
+# K:105:/2104 # Hard Leather Armour 6
+# K:106:/2105 # Hard Studded Leather 7
+# K:107:/2106 # Leather Scale Mail 11
+# K:535:/2100 # Rhino Hide Armour 8
+# K:536:/2100 # Serpent Scale Mail 12
+# K:557:/2100 # Cord Armour 6
+# K:558:/2100 # Paper Armour 4
+# K:559:/2100 # Padded Armour 4
+# K:561:/2100 # Stone and Hide Armour 15
+# K:646:/2100 # Dragonrider Coat 9
+# K:933:/2100 # Wyvern Hide Armour 17
+# K:955:/2100 # Fancy Shirt 1
+# K:968:/2100 # Frock 2
+# K:969:/2100 # Tunic 2
+# K:970:/2100 # Gown 1
+# K:971:/2100 # Leather Frock 3
+# K:973:/2100 # Wire Fleece 8
+# K:1004:/2100 # Costume 1
 
 ## Heavy Armor
 
