@@ -791,28 +791,52 @@ K:1004:/2121 # Costume 1
 
 # U:37:/2200 # Unknown Heavy Armor
 
-# K:108:/2200 # Metal Scale Mail
-# K:109:/2200 # Chain Mail
-# K:110:/2200 # Rusty Chain Mail
-# K:111:/2200 # Augmented Chain Mail
-# K:112:/2200 # Bar Chain Mail
-# K:113:/2200 # Metal Brigandine Armour
-# K:114:/2200 # Partial Plate Armour
-# K:115:/2200 # Metal Lamellar Armour
-# K:116:/2200 # Full Plate Armour
-# K:117:/2200 # Ribbed Plate Armour
-# K:118:/2200 # Adamantite Plate Mail
-# K:119:/2200 # Mithril Plate Mail
-# K:120:/2200 # Mithril Chain Mail
-# K:121:/2200 # Double Chain Mail
-# K:170:/2200 # Double Ring Mail
-# K:518:/2200 # Heavy Adamantite Plate Armour
-# K:526:/2200 # Splint Mail
-# K:556:/2200 # Ring Mail
-# K:961:/2200 # Heavy Mithril Scale Armour
-# K:962:/2200 # Heavy Mithril Plate Armour
-# K:963:/2200 # Heavy Ribbed Mithril Armour
-# K:964:/2200 # Heavy Adamantite Scale Armour
-# K:965:/2200 # Heavy Adamantite Plate Armour
-# K:966:/2200 # Heavy Ribbed Adamantite Armour
+# K:108:/2200 # Metal Scale Mail 13
+# K:109:/2200 # Chain Mail 14
+# K:110:/2200 # Rusty Chain Mail 14 -8
+# K:111:/2200 # Augmented Chain Mail 17
+# K:112:/2200 # Bar Chain Mail 18
+# K:113:/2200 # Metal Brigandine Armour 19
+# K:114:/2200 # Partial Plate Armour 22
+# K:115:/2200 # Metal Lamellar Armour 23
+# K:116:/2200 # Full Plate Armour 25
+# K:117:/2200 # Ribbed Plate Armour 28
+# K:118:/2200 # Adamantite Plate Mail 40
+# K:119:/2200 # Mithril Plate Mail 35
+# K:120:/2200 # Mithril Chain Mail 24
+# K:121:/2200 # Double Chain Mail 16
+# K:170:/2200 # Double Ring Mail 15
+# K:518:/2200 # Heavy Adamantite Plate Armour 76
+# K:526:/2200 # Splint Mail 19
+# K:556:/2200 # Ring Mail 12
+# K:961:/2200 # Heavy Mithril Scale Armour 66
+# K:962:/2200 # Heavy Mithril Plate Armour 70
+# K:963:/2200 # Heavy Ribbed Mithril Armour 74
+# K:964:/2200 # Heavy Adamantite Scale Armour 72
+# K:965:/2200 # Heavy Adamantite Plate Armour 76
+# K:966:/2200 # Heavy Ribbed Adamantite Armour 80
 
+##### Dragon Scale Mail #####
+
+# U:38:/2300 # Unknown Dragon Scale Mail
+
+# K:400:/2300 Black Dragon Scale Mail
+# K:401:/2300 Blue Dragon Scale Mail
+# K:402:/2300 White Dragon Scale Mail
+# K:403:/2300 Red Dragon Scale Mail
+# K:404:/2300 Green Dragon Scale Mail
+# K:405:/2300 Multi-Hued Dragon Scale Mail
+# K:918:/2300 Pseudo Dragon Scale Mail
+# K:406:/2300 Ethereal Dragon Scale Mail
+# K:407:/2300 Law Dragon Scale Mail
+# K:408:/2300 Bronze Dragon Scale Mail
+# K:409:/2300 Gold Dragon Scale Mail
+# K:410:/2300 Chaos Dragon Scale Mail
+# K:411:/2300 Balance Dragon Scale Mail
+# K:412:/2300 Power Dragon Scale Mail
+# K:929:/2300 Crystal Dragon Scale Mail
+# K:930:/2300 Dracolich Bone Armour
+# K:931:/2300 Dracolisk Scale Mail
+# K:932:/2300 Sky Dragon Scale Mail
+# K:978:/2300 Silver Dragon Scale Mail
+# K:928:/2300 Death Dragon Scale Mail
