@@ -4,6 +4,7 @@ This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
 Its still in development.  
 Right now there are tiles only for:
+- **all character equipment**
 - Mushrooms
 - Scrolls 
 - Tomes
@@ -12,12 +13,6 @@ Right now there are tiles only for:
 - Staves
 - Potions
 - Runes
-- Lights
-- Diggers
-- Swords
-- Blunts
-- Axes
-- Polearms
 
 But will be more!)
 
@@ -34,17 +29,16 @@ But will be more!)
 
 ### Linux 
 
-1) put `16x22sv.bmp` in your `tomenet/lib/xtra/graphics` folder
-2) put `graphics-16x22sv.prf` in your `tomenet/lib/user` folder
-3) configure `~/.tomenetrc`: add graphics setup lines
+1) copy `lib` folder into your `tomenet` folder
+2) configure `~/.tomenetrc`: add graphics setup lines
 ```
 graphics		1
 graphic_tiles		16x22sv
 ```
 
 ### Windows
-1) put `16x22sv.bmp` in your `TomeNET/lib/xtra/graphics` folder (Create if doesn't exist) 
-2) put `graphics-16x22sv.prf` in your `C:/Users/%USERNAME%/TomeNET-user` folder
+1) put `16x22sv.bmp`(from `lib/xtra/graphics`) in your `TomeNET/lib/xtra/graphics` folder (Create if doesn't exist) 
+2) put `graphics-16x22sv.prf`(from `lib/user`) in your `C:/Users/%USERNAME%/TomeNET-user` folder
 3) configure `TomeNET.ini`: find and update graphics setup lines
 ```
 Graphics=1
