@@ -840,3 +840,22 @@ K:931:/2300 # Dracolisk Scale Mail
 K:932:/2300 # Sky Dragon Scale Mail
 K:978:/2300 # Silver Dragon Scale Mail
 K:928:/2300 # Death Dragon Scale Mail
+
+##### Food #####
+
+K:21:/2400 # Ration of Food
+K:22:/2401 # Hard Biscuit
+K:23:/2402 # Strip of Venison
+K:24:/2403 # Slime Mold
+K:25:/2404 # Lembas
+K:26:/2405 # Pint of Fine Ale
+K:27:/2405 # Pint of Fine Wine
+K:382:/2405 # Pint of Fine Ale
+K:701:/2406 # Sprig of Athelas
+K:807:/2407 # Fortune cookie
+K:841:/2408 # Potato
+K:842:/2409 # Head of Cabbage
+K:843:/2410 # Carrot
+K:844:/2411 # Beet
+K:845:/2412 # Squash
+K:846:/2413 # Ear of Corn
