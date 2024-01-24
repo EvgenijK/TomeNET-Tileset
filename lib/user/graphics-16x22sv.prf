@@ -844,18 +844,46 @@ K:928:/2300 # Death Dragon Scale Mail
 ##### Food #####
 
 K:21:/2400 # Ration of Food
-K:22:/2401 # Hard Biscuit
-K:23:/2402 # Strip of Venison
-K:24:/2403 # Slime Mold
-K:25:/2404 # Lembas
-K:26:/2405 # Pint of Fine Ale
-K:27:/2405 # Pint of Fine Wine
-K:382:/2405 # Pint of Fine Ale
-K:701:/2406 # Sprig of Athelas
-K:807:/2407 # Fortune cookie
-K:841:/2408 # Potato
-K:842:/2409 # Head of Cabbage
-K:843:/2410 # Carrot
-K:844:/2411 # Beet
-K:845:/2412 # Squash
-K:846:/2413 # Ear of Corn
+K:22:/2400 # Hard Biscuit
+K:23:/2400 # Strip of Venison
+K:24:/2400 # Slime Mold
+K:25:/2400 # Lembas
+K:26:/2400 # Pint of Fine Ale
+K:27:/2400 # Pint of Fine Wine
+K:382:/2400 # Pint of Fine Ale
+K:701:/2400 # Sprig of Athelas
+K:807:/2400 # Fortune cookie
+K:841:/2400 # Potato
+K:842:/2400 # Head of Cabbage
+K:843:/2400 # Carrot
+K:844:/2400 # Beet
+K:845:/2400 # Squash
+K:846:/2400 # Ear of Corn
+
+##### Chests #####
+
+# U:7:/2300 # Unknown Chest
+
+# K:338:/2500 # Small wooden chest
+# K:339:/2500 # Large wooden chest
+# K:340:/2500 # Small iron chest
+# K:341:/2500 # Large iron chest
+# K:342:/2500 # Small steel chest
+# K:343:/2500 # Large steel chest
+# K:344:/2500 # Ruined chest
+
+##### Bags #####
+
+# U:126:/2300 # Unknown Bag
+
+# K:452:2500 # Alchemy Satchel
+# K:512:2500 # Trap Kit Bag
+# K:513:2500 # Antistatic Wrapping
+# K:520:2500 # Potion Belt
+# K:453:2500 # Small wooden chest
+# K:454:2500 # Large wooden chest
+# K:455:2500 # Small iron chest
+# K:456:2500 # Large iron chest
+# K:457:2500 # Small steel chest
+# K:458:2500 # Large steel chest
+
