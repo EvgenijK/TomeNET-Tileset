@@ -862,28 +862,47 @@ K:846:/2400 # Ear of Corn
 
 ##### Chests #####
 
-# U:7:/2300 # Unknown Chest
+# U:7:/2500 # Unknown Chest
 
 # K:338:/2500 # Small wooden chest
-# K:339:/2500 # Large wooden chest
+# K:339:/2501 # Large wooden chest
 # K:340:/2500 # Small iron chest
-# K:341:/2500 # Large iron chest
+# K:341:/2501 # Large iron chest
 # K:342:/2500 # Small steel chest
-# K:343:/2500 # Large steel chest
-# K:344:/2500 # Ruined chest
+# K:343:/2501 # Large steel chest
+# K:344:/2502 # Ruined chest
 
 ##### Bags #####
 
-# U:126:/2300 # Unknown Bag
+# U:126:/2503 # Unknown Bag
 
-# K:452:2500 # Alchemy Satchel
-# K:512:2500 # Trap Kit Bag
-# K:513:2500 # Antistatic Wrapping
-# K:520:2500 # Potion Belt
-# K:453:2500 # Small wooden chest
-# K:454:2500 # Large wooden chest
-# K:455:2500 # Small iron chest
-# K:456:2500 # Large iron chest
-# K:457:2500 # Small steel chest
-# K:458:2500 # Large steel chest
+# K:452:/2500 # Alchemy Satchel
+# K:512:/2500 # Trap Kit Bag
+# K:513:/2500 # Antistatic Wrapping
+# K:520:/2500 # Potion Belt
 
+# K:453:/2500 # Small wooden chest
+# K:454:/2500 # Large wooden chest
+# K:455:/2500 # Small iron chest
+# K:456:/2500 # Large iron chest
+# K:457:/2500 # Small steel chest
+# K:458:/2500 # Large steel chest
+
+##### Corpses #####
+
+# U:1:/2600 # Unknown Corpses
+
+# K:391:/2600 # Broken Skull
+# K:392:/2600 # Broken Bone
+# K:393:/2600 # Canine Skeleton
+# K:394:/2600 # Rodent Skeleton
+# K:395:/2600 # Human Skeleton
+# K:396:/2600 # Dwarf Skeleton
+# K:397:/2600 # Elf Skeleton
+# K:398:/2600 # Gnome Skeleton
+# K:459:/2600 # Kobold Skeleton
+# K:460:/2600 # Halfling Skeleton
+# K:461:/2600 # Orc Skeleton
+# K:462:/2600 # Yeek Skeleton
+# K:463:/2600 # Goblin Skeleton
+# K:464:/2600 # Draconian Skeleton
