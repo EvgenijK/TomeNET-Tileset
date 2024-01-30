@@ -911,69 +911,72 @@ K:464:/2605 # Draconian Skeleton
 
 ##### Keys #####
 
-# I:51
+# U:51:/2700 # Unknown Key
 
-# N:839:& Key~
-# N:840:& Guild Key~
-
+K:839:/2700 # Key
+K:840:/2701 # Guild Key
 
 ##### Golem Material #####
 
-# I:52
+# U:52:/2800 # Unknown golem material
 
 # material pieces
-# N:850:& Massive Piece~ of Wood
-# N:851:& Massive Piece~ of Copper
-# N:852:& Massive Piece~ of Iron
-# N:853:& Massive Piece~ of Aluminium
-# N:854:& Massive Piece~ of Silver
-# N:855:& Massive Piece~ of Gold
-# N:856:& Massive Piece~ of Mithril
-# N:857:& Massive Piece~ of Adamantite
+K:850:/2800 # Massive Piece of Wood
+K:851:/2801 # Massive Piece of Copper
+K:852:/2801 # Massive Piece of Iron
+K:853:/2801 # Massive Piece of Aluminium
+K:854:/2801 # Massive Piece of Silver
+K:855:/2801 # Massive Piece of Gold
+K:856:/2801 # Massive Piece of Mithril
+K:857:/2801 # Massive Piece of Adamantite
 
 # arms and legs
-# N:858:& Golem Arm~
-# N:859:& Golem Leg~
+K:858:/2802 # Golem Arm
+K:859:/2803 # Golem Leg
 
 ##### Trapping Kits #####
 
-# N:549:Arrow
-# N:550:Bolt
-# N:555:Catapult
-# N:560:Fumes
-# N:562:Magic
-# N:563:Device
+# U:46:/2900 # Unknown traping kit
+
+K:549:/2900 # Arrow
+K:550:/2900 # Bolt
+K:555:/2900 # Catapult
+K:560:/2900 # Fumes
+K:562:/2900 # Magic
+K:563:/2900 # Device
 
 ##### Tools #####
 
-# I:12
+# U:12:/3000 # Unknown Tool
 
-# N:448:& Grinding Tool~
-# N:786:Climbing Set~
-# N:903:& Picklock~
-# N:904:& Money Belt~
-# N:905:& Backpack Safety Lock~
-# N:906:& Tarpaulin~
-# N:911:& Flint~
-# N:916:& Mummy Wrapping~
+# K:448:/3000 # Grinding Tool
+# K:786:/3000 # Climbing Set
+# K:903:/3000 # Picklock
+# K:904:/3000 # Money Belt
+# K:905:/3000 # Backpack Safety Lock
+# K:906:/3000 # Tarpaulin
+# K:911:/3000 # Flint
+# K:916:/3000 # Mummy Wrapping
 
 ##### Gift Wrappings #####
 
-# (I:11)
+# U:11:/3100 # Unknown Gift Wrapping
 
-# N:655:& Red Gift Wrapping~
-# N:656:& Orange Gift Wrapping~
-# N:657:& Yellow Gift Wrapping~
-# N:658:& Green Gift Wrapping~
-# N:659:& Blue Gift Wrapping~
-# N:660:& Purple Gift Wrapping~
+K:655:/3100 # Red Gift Wrapping
+K:656:/3100 # Orange Gift Wrapping
+K:657:/3100 # Yellow Gift Wrapping
+K:658:/3100 # Green Gift Wrapping
+K:659:/3100 # Blue Gift Wrapping
+K:660:/3100 # Purple Gift Wrapping
 
-# N:743:& Gift~, Wrapped in Red Paper
-# N:744:& Gift~, Wrapped in Orange Paper
-# N:745:& Gift~, Wrapped in Yellow Paper
-# N:746:& Gift~, Wrapped in Green Paper
-# N:747:& Gift~, Wrapped in Blue Paper
-# N:748:& Gift~, Wrapped in Purple Paper
+# U:127:/3101 # Unknown Gift
+
+K:743:/3101 # Gift, Wrapped in Red Paper
+K:744:/3101 # Gift, Wrapped in Orange Paper
+K:745:/3101 # Gift, Wrapped in Yellow Paper
+K:746:/3101 # Gift, Wrapped in Green Paper
+K:747:/3101 # Gift, Wrapped in Blue Paper
+K:748:/3101 # Gift, Wrapped in Purple Paper
 
 ##### Firestone #####
 
