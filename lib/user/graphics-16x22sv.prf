@@ -945,18 +945,25 @@ K:560:/2900 # Fumes
 K:562:/2900 # Magic
 K:563:/2900 # Device
 
+# K:549:/2900 # Arrow
+# K:550:/2901 # Bolt
+# K:555:/2902 # Catapult
+# K:560:/2903 # Fumes
+# K:562:/2904 # Magic
+# K:563:/2905 # Device
+
 ##### Tools #####
 
 # U:12:/3000 # Unknown Tool
 
-# K:448:/3000 # Grinding Tool
-# K:786:/3000 # Climbing Set
-# K:903:/3000 # Picklock
-# K:904:/3000 # Money Belt
-# K:905:/3000 # Backpack Safety Lock
-# K:906:/3000 # Tarpaulin
-# K:911:/3000 # Flint
-# K:916:/3000 # Mummy Wrapping
+K:448:/3000 # Grinding Tool
+K:786:/3001 # Climbing Set
+K:903:/3002 # Picklock
+K:904:/3003 # Money Belt
+K:905:/3004 # Backpack Safety Lock
+K:906:/3005 # Tarpaulin
+K:911:/3006 # Flint
+K:916:/3007 # Mummy Wrapping
 
 ##### Gift Wrappings #####
 
@@ -981,8 +988,8 @@ K:748:/3101 # Gift, Wrapped in Purple Paper
 ##### Firestone #####
 
 # I:3
-# N:389:& Firestone~
-# N:390:& Small Firestone~
+# N:389: Firestone
+# N:390: Small Firestone
 
 ##### Various Staff #####
 
@@ -990,73 +997,74 @@ K:748:/3101 # Gift, Wrapped in Purple Paper
 # N:446:Fireworks
 
 # (I:11)
-# N:383:& Piece~ of Wood
-# N:517:& Energy Cell~
-# N:534:& Shard~ of twinkling, silvery glass
+# N:383: Piece of Wood
+# N:517: Energy Cell
+# N:534: Shard of twinkling, silvery glass
 
 # Junk (I:11)
-# N:726:& Shard~ of Pottery
-# N:727:& Broken Stick~
+# N:726: Shard of Pottery
+# N:727: Broken Stick
 
 # (I:127)
-# N:1000:& Magic Seal~ (replacer for removed items)
+# N:1000: Magic Seal (replacer for removed items)
 
 # (I:5)
-# N:345:& Iron Spike~ (jam doors)
+# N:345: Iron Spike (jam doors)
 
 # (I:13)
-# N:381:& Snowball~
+# N:381: Snowball
 
 # (I:13)
-# N:926:& Heavy Ball~ (for football)
+# N:926: Heavy Ball (for football)
 
 ##### Chess pieces #####
 
 # I:13
-# N:936:& White piece
-# N:937:& Black piece
-# N:938:& White Pawn
-# N:939:& White King
-# N:940:& White Queen
-# N:941:& White Rook
-# N:942:& White Knight
-# N:943:& White Bishop
-# N:944:& Black Pawn
-# N:945:& Black King
-# N:946:& Black Queen
-# N:947:& Black Rook
-# N:948:& Black Knight
-# N:949:& Black Bishop
+# N:936: White piece
+# N:937: Black piece
+# N:938: White Pawn
+# N:939: White King
+# N:940: White Queen
+# N:941: White Rook
+# N:942: White Knight
+# N:943: White Bishop
+# N:944: Black Pawn
+# N:945: Black King
+# N:946: Black Queen
+# N:947: Black Rook
+# N:948: Black Knight
+# N:949: Black Bishop
 
 ##### Demolitionist stuff #####
 
 # I:48
-# N:449:& Heap~ of Wood Chips
-# N:718:& Smattering~ of Rust
-# N:719:& # Mixture~
-# N:729:& Piece~ of Charcoal
-# N:730:& Smattering~ of Sulfur
-# N:731:& Smattering~ of Saltpetre
-# N:732:& Dash~ of Ammonia Salt
-# N:733:& Smattering~ of Reactive Metal Powder
-# N:734:& Dash~ of Caustic Metal Ash (\{oDISABLED\{.)
-# N:735:& Dash~ of Caustic Metal Ash
-# N:736:& Dash~ of Caustic Salt
-# N:737:& Pinch~ of Vitriol
+# N:449: Heap of Wood Chips
+# N:718: Smattering of Rust
+# N:719: Mixture
+# N:729: Piece of Charcoal
+# N:730: Smattering of Sulfur
+# N:731: Smattering of Saltpetre
+# N:732: Dash of Ammonia Salt
+# N:733: Smattering of Reactive Metal Powder
+# N:734: Dash of Caustic Metal Ash (\{oDISABLED\{.)
+# N:735: Dash of Caustic Metal Ash
+# N:736: Dash of Caustic Salt
+# N:737: Pinch of Vitriol
 
 # I:47
-# N:702:& Blast Charge
-# N:703:& Large Blast Charge
-# N:704:& Surgical Charge
-# N:705:& Ground-shaking Charge
-# N:706:& Destructor-Charge
-# N:707:& Fire Charge
-# N:708:& Firestorm Charge
-# N:709:& Firewall Charge
-# N:710:& Wrecking Charge
-# N:711:& Cascading Charge
-# N:712:& Tactical Charge
-# N:713:& Flash bomb
-# N:714:& Concussive Charge
-# N:715:& Large Concussive Charge
-# N:716:& Underground Charge
+# N:702: Blast Charge
+# N:703: Large Blast Charge
+# N:704: Surgical Charge
+# N:705: Ground-shaking Charge
+# N:706: Destructor-Charge
+# N:707: Fire Charge
+# N:708: Firestorm Charge
+# N:709: Firewall Charge
+# N:710: Wrecking Charge
+# N:711: Cascading Charge
+# N:712: Tactical Charge
+# N:713: Flash bomb
+# N:714: Concussive Charge
+# N:715: Large Concussive Charge
+# N:716: Underground Charge
+#
