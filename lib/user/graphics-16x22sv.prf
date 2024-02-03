@@ -987,35 +987,30 @@ K:748:/3101 # Gift, Wrapped in Purple Paper
 
 ##### Firestone #####
 
-# I:3
-# N:389: Firestone
-# N:390: Small Firestone
+# U:3:/3200 # Unknown Firestone
+
+K:389:/3200 Firestone
+K:390:/3201 Small Firestone
 
 ##### Various Staff #####
 
-# (I:70)
-# N:446:Fireworks
-
 # (I:11)
-# N:383: Piece of Wood
-# N:517: Energy Cell
-# N:534: Shard of twinkling, silvery glass
+K:383:/3300 # Piece of Wood
+K:517:/3301 Energy Cell
+K:534:/3302 Shard of twinkling, silvery glass
 
 # Junk (I:11)
-# N:726: Shard of Pottery
-# N:727: Broken Stick
+K:726:/3303 # Shard of Pottery
+K:727:/3304 # Broken Stick
 
 # (I:127)
-# N:1000: Magic Seal (replacer for removed items)
+K:1000:/3305 # Magic Seal (replacer for removed items)
 
 # (I:5)
-# N:345: Iron Spike (jam doors)
+K:345:/3306 # Iron Spike (jam doors)
 
 # (I:13)
-# N:381: Snowball
-
-# (I:13)
-# N:926: Heavy Ball (for football)
+K:926:/3307 # Heavy Ball (for football)
 
 ##### Chess pieces #####
 
