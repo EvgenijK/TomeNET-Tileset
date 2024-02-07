@@ -4,11 +4,6 @@
 # This file defines special attr/char mappings for use in "graphics" mode.
 #
 
-################# Floors #################
-
-# Floors
-# F:0:/0 # nothing floor (without it i have packet errors and friquent client crashes)
-
 ################# Objects #################
 
 ##### Mushrooms #####
@@ -96,20 +91,31 @@ K:881:/303 # House creation
 K:898:/303 # Lottery
 K:899:/303 # Identify Everything
 K:900:/303 # Vermin Control
-K:908:/303 # The Gazette
 K:912:/303 # Cancellation
 K:914:/303 # Wilderness Mapping
+
+K:1031:/303 # Cheque
+
+# Spell Scroll is a Tome by kind(I:111) but has a scroll tile
+K:757:/303 # Spell Scroll
+
+# Golem scrolls are "golem materials" but look like scrolls (I:52)
+K:860:/303 # Golem Scroll of Attack
+K:861:/303 # Golem Scroll of Following
+K:862:/303 # Golem Scroll of Guard
+
+# Parchments are not scrolls objects but have a scrool tile
+K:787:/303 # Adventurer's Guide to Middle Earth
+K:907:/303 # The Book of the Dead
+K:908:/303 # The Gazette
 K:976:/303 # Highlander Victory Deed
 K:977:/303 # Highlander Contender Deed
 K:992:/303 # Master Gladiator's Deed
 K:993:/303 # Gladiator's Deed
 K:994:/303 # Vanquisher's Deed
 K:995:/303 # Gladiator's Entrance
-K:1031:/303 # Cheque
 K:1038:/303 # Dungeon-fleeing Certificate
 K:1039:/303 # Horned Reaper's Autograph
-
-K:757:/303 # Spell Scroll
 
 ##### Tomes #####
 
@@ -123,45 +129,39 @@ K:334:/304 # Tome of the Everrunning Wave
 K:335:/304 # Tome of Translocation
 K:336:/304 # Tome of the Tree
 K:337:/304 # Tome of Knowledge
+K:379:/304 # Tome of Shadows
+K:380:/304 # Tome of Spirits
+K:384:/304 # Corrupted Tome of Chaos
+K:447:/304 # Tainted Tome of Unlife
 K:515:/304 # Handbook of Wind and Weather
 K:738:/304 # Handbook of Beginner Cantrips
 K:756:/304 # Tome of the Time
 K:763:/304 # Unholy Tome of the Hellflame
-K:787:/304 # Adventurer's Guide to Middle Earth
 K:848:/304 # Handbook of Manipulation
 K:849:/304 # Handbook of Alleviation
-K:860:/304 # Golem Scroll of Attack
-K:861:/304 # Golem Scroll of Following
-K:862:/304 # Golem Scroll of Guard
-K:907:/304 # The Book of the Dead
 K:922:/304 # Tome of Holy Offense
 K:923:/304 # Tome of Holy Defense
 K:924:/304 # Tome of Holy Curing
 K:925:/304 # Tome of Holy Support
 K:950:/304 # Tome of Arcane Lore
 K:951:/304 # Tome of Physical Lore
-K:942:/304 # White Knight
-K:948:/304 # Black Knight
 K:956:/304 # Elementalist's Handbook
 K:957:/304 # Handbook for Treasure Hunting
 K:958:/304 # Handbook of Piety
 K:959:/304 # Naturalist's Handbook
 K:960:/304 # Destroyer's Handbook
+K:974:/304 # Astral Grimoire
 K:980:/304 # Handbook of Deception
 K:982:/304 # Handbook of Dungeon Keeping
 K:1035:/304 # Handbook of Revelation
 K:1041:/304 # Handbook of Transportation
 K:1036:/304 # Handbook of Novice Etiquette
 K:1037:/304 # Handbook of First Visions
-K:974:/304 # Astral Grimoire
 K:1001:/304 # Codex
 K:1002:/304 # Spellbook
 K:1003:/304 # Grimoire
-K:379:/304 # Tome of Shadows
-K:380:/304 # Tome of Spirits
-K:384:/304 # Corrupted Tome of Chaos
-K:447:/304 # Tainted Tome of Unlife
 
+# mindcrafters crystals have own crystal tile
 K:996:/305 # Greater Crystal of Psycho-Power
 K:997:/305 # Greater Crystal of Attunement
 K:998:/305 # Greater Crystal of Mental Intrusion
@@ -840,3 +840,230 @@ K:931:/2300 # Dracolisk Scale Mail
 K:932:/2300 # Sky Dragon Scale Mail
 K:978:/2300 # Silver Dragon Scale Mail
 K:928:/2300 # Death Dragon Scale Mail
+
+##### Food #####
+
+K:21:/2400 # Ration of Food
+K:22:/2401 # Hard Biscuit
+K:23:/2402 # Strip of Venison
+K:24:/2403 # Slime Mold
+K:25:/2404 # Lembas
+K:26:/2405 # Pint of Fine Ale
+K:27:/2405 # Pint of Fine Wine
+K:382:/2405 # Pint of Fine Ale
+K:701:/2406 # Sprig of Athelas
+K:807:/2407 # Fortune cookie
+K:841:/2408 # Potato
+K:842:/2409 # Head of Cabbage
+K:843:/2410 # Carrot
+K:844:/2411 # Beet
+K:845:/2412 # Squash
+K:846:/2413 # Ear of Corn
+
+##### Chests #####
+
+# U:7:/2500 # Unknown Chest
+
+K:338:/2500 # Small wooden chest
+K:339:/2501 # Large wooden chest
+K:340:/2502 # Small iron chest
+K:341:/2503 # Large iron chest
+K:342:/2504 # Small steel chest
+K:343:/2505 # Large steel chest
+
+# empty chests
+K:453:/2506 # Small wooden chest
+K:454:/2507 # Large wooden chest
+K:455:/2508 # Small iron chest
+K:456:/2509 # Large iron chest
+K:457:/2510 # Small steel chest
+K:458:/2511 # Large steel chest
+
+K:344:/2512 # Ruined chest
+
+##### Bags #####
+
+# U:126:/2513 # Unknown Bag
+
+K:452:/2513 # Alchemy Satchel
+K:512:/2514 # Trap Kit Bag
+K:513:/2515 # Antistatic Wrapping
+K:520:/2516 # Potion Belt
+
+##### Corpses #####
+
+# U:1:/2600 # Unknown Corpse
+
+K:391:/2600 # Broken Skull
+K:392:/2601 # Broken Bone
+K:393:/2602 # Canine Skeleton
+K:394:/2603 # Rodent Skeleton
+K:395:/2604 # Human Skeleton
+K:396:/2604 # Dwarf Skeleton
+K:397:/2604 # Elf Skeleton
+K:398:/2604 # Gnome Skeleton
+K:459:/2604 # Kobold Skeleton
+K:460:/2604 # Halfling Skeleton
+K:461:/2604 # Orc Skeleton
+K:462:/2604 # Yeek Skeleton
+K:463:/2604 # Goblin Skeleton
+K:464:/2605 # Draconian Skeleton
+
+##### Keys #####
+
+# U:51:/2700 # Unknown Key
+
+K:839:/2700 # Key
+K:840:/2701 # Guild Key
+
+##### Golem Material #####
+
+# U:52:/2800 # Unknown golem material
+
+# material pieces
+K:850:/2800 # Massive Piece of Wood
+K:851:/2801 # Massive Piece of Copper
+K:852:/2801 # Massive Piece of Iron
+K:853:/2801 # Massive Piece of Aluminium
+K:854:/2801 # Massive Piece of Silver
+K:855:/2801 # Massive Piece of Gold
+K:856:/2801 # Massive Piece of Mithril
+K:857:/2801 # Massive Piece of Adamantite
+
+# arms and legs
+K:858:/2802 # Golem Arm
+K:859:/2803 # Golem Leg
+
+##### Trapping Kits #####
+
+# U:46:/2900 # Unknown traping kit
+
+K:549:/2900 # Arrow
+K:550:/2900 # Bolt
+K:555:/2900 # Catapult
+K:560:/2900 # Fumes
+K:562:/2900 # Magic
+K:563:/2900 # Device
+
+##### Tools #####
+
+# U:12:/3000 # Unknown Tool
+
+K:448:/3000 # Grinding Tool
+K:786:/3001 # Climbing Set
+K:903:/3002 # Picklock
+K:904:/3003 # Money Belt
+K:905:/3004 # Backpack Safety Lock
+K:906:/3005 # Tarpaulin
+K:911:/3006 # Flint
+K:916:/3007 # Mummy Wrapping
+
+##### Gift Wrappings #####
+
+# U:11:/3100 # Unknown Gift Wrapping
+
+K:655:/3100 # Red Gift Wrapping
+K:656:/3100 # Orange Gift Wrapping
+K:657:/3100 # Yellow Gift Wrapping
+K:658:/3100 # Green Gift Wrapping
+K:659:/3100 # Blue Gift Wrapping
+K:660:/3100 # Purple Gift Wrapping
+
+# U:127:/3101 # Unknown Gift
+
+K:743:/3101 # Gift, Wrapped in Red Paper
+K:744:/3101 # Gift, Wrapped in Orange Paper
+K:745:/3101 # Gift, Wrapped in Yellow Paper
+K:746:/3101 # Gift, Wrapped in Green Paper
+K:747:/3101 # Gift, Wrapped in Blue Paper
+K:748:/3101 # Gift, Wrapped in Purple Paper
+
+##### Firestone #####
+
+# U:3:/3200 # Unknown Firestone
+
+K:389:/3200 Firestone
+K:390:/3201 Small Firestone
+
+##### Various Staff #####
+
+# (I:11)
+K:383:/3300 # Piece of Wood
+K:517:/3301 Energy Cell
+K:534:/3302 Shard of twinkling, silvery glass
+
+# Junk (I:11)
+K:726:/3303 # Shard of Pottery
+K:727:/3304 # Broken Stick
+
+# (I:127)
+K:1000:/3305 # Magic Seal (replacer for removed items)
+
+# (I:5)
+K:345:/3306 # Iron Spike (jam doors)
+
+# (I:13)
+K:926:/3307 # Heavy Ball (for football)
+K:381:/3309 # Snowball
+
+##### Board games pieces #####
+
+# U:13:/3400
+
+# Go/Checkers
+
+K:936:/3400 # White piece
+K:937:/3400 # Black piece
+
+K:879:/3401 # White Dame
+K:880:/3401 # Black Dame
+
+# Chess
+
+K:941:/3402 # White Rook
+K:947:/3402 # Black Rook
+K:943:/3403 # White Bishop
+K:949:/3403 # Black Bishop
+K:942:/3404 # White Knight
+K:948:/3404 # Black Knight
+K:938:/3405 # White Pawn
+K:944:/3405 # Black Pawn
+K:940:/3406 # White Queen
+K:946:/3406 # Black Queen
+K:939:/3407 # White King
+K:945:/3407 # Black King
+
+##### Demolitionist stuff #####
+
+# U:48:/3500 # Unknown ingrideint
+
+K:449:/3500 # Heap of Wood Chips
+K:718:/3500 # Smattering of Rust
+K:719:/3501 # Mixture
+K:729:/3500 # Piece of Charcoal
+K:730:/3500 # Smattering of Sulfur
+K:731:/3500 # Smattering of Saltpetre
+K:732:/3500 # Dash of Ammonia Salt
+K:733:/3500 # Smattering of Reactive Metal Powder
+K:734:/3500 # Dash of Caustic Metal Ash (\{oDISABLED\{.)
+K:735:/3500 # Dash of Caustic Metal Ash
+K:736:/3500 # Dash of Caustic Salt
+K:737:/3500 # Pinch of Vitriol
+
+# U:47:/3502 # Unknown Charge
+K:702:/3502 # Blast Charge
+K:703:/3502 # Large Blast Charge
+K:704:/3502 # Surgical Charge
+K:705:/3502 # Ground-shaking Charge
+K:706:/3502 # Destructor-Charge
+K:707:/3502 # Fire Charge
+K:708:/3502 # Firestorm Charge
+K:709:/3502 # Firewall Charge
+K:710:/3502 # Wrecking Charge
+K:711:/3502 # Cascading Charge
+K:712:/3502 # Tactical Charge
+K:713:/3502 # Flash bomb
+K:714:/3502 # Concussive Charge
+K:715:/3502 # Large Concussive Charge
+K:716:/3502 # Underground Charge
+
