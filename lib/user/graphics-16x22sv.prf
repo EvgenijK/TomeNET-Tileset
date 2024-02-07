@@ -945,13 +945,6 @@ K:560:/2900 # Fumes
 K:562:/2900 # Magic
 K:563:/2900 # Device
 
-# K:549:/2900 # Arrow
-# K:550:/2901 # Bolt
-# K:555:/2902 # Catapult
-# K:560:/2903 # Fumes
-# K:562:/2904 # Magic
-# K:563:/2905 # Device
-
 ##### Tools #####
 
 # U:12:/3000 # Unknown Tool
@@ -1011,55 +1004,66 @@ K:345:/3306 # Iron Spike (jam doors)
 
 # (I:13)
 K:926:/3307 # Heavy Ball (for football)
+K:381:/3309 # Snowball
 
-##### Chess pieces #####
+##### Board games pieces #####
 
-# I:13
-# N:936: White piece
-# N:937: Black piece
-# N:938: White Pawn
-# N:939: White King
-# N:940: White Queen
-# N:941: White Rook
-# N:942: White Knight
-# N:943: White Bishop
-# N:944: Black Pawn
-# N:945: Black King
-# N:946: Black Queen
-# N:947: Black Rook
-# N:948: Black Knight
-# N:949: Black Bishop
+# U:13:/3400
+
+# Go/Checkers
+
+K:936:/3400 # White piece
+K:937:/3400 # Black piece
+
+K:879:/3401 # White Dame
+K:880:/3401 # Black Dame
+
+# Chess
+
+K:941:/3402 # White Rook
+K:947:/3402 # Black Rook
+K:943:/3403 # White Bishop
+K:949:/3403 # Black Bishop
+K:942:/3404 # White Knight
+K:948:/3404 # Black Knight
+K:938:/3405 # White Pawn
+K:944:/3405 # Black Pawn
+K:940:/3406 # White Queen
+K:946:/3406 # Black Queen
+K:939:/3407 # White King
+K:945:/3407 # Black King
 
 ##### Demolitionist stuff #####
 
-# I:48
-# N:449: Heap of Wood Chips
-# N:718: Smattering of Rust
-# N:719: Mixture
-# N:729: Piece of Charcoal
-# N:730: Smattering of Sulfur
-# N:731: Smattering of Saltpetre
-# N:732: Dash of Ammonia Salt
-# N:733: Smattering of Reactive Metal Powder
-# N:734: Dash of Caustic Metal Ash (\{oDISABLED\{.)
-# N:735: Dash of Caustic Metal Ash
-# N:736: Dash of Caustic Salt
-# N:737: Pinch of Vitriol
+# U:48:/3500 # Unknown ingrideint
 
-# I:47
-# N:702: Blast Charge
-# N:703: Large Blast Charge
-# N:704: Surgical Charge
-# N:705: Ground-shaking Charge
-# N:706: Destructor-Charge
-# N:707: Fire Charge
-# N:708: Firestorm Charge
-# N:709: Firewall Charge
-# N:710: Wrecking Charge
-# N:711: Cascading Charge
-# N:712: Tactical Charge
-# N:713: Flash bomb
-# N:714: Concussive Charge
-# N:715: Large Concussive Charge
-# N:716: Underground Charge
-#
+K:449:/3500 # Heap of Wood Chips
+K:718:/3500 # Smattering of Rust
+K:719:/3501 # Mixture
+K:729:/3500 # Piece of Charcoal
+K:730:/3500 # Smattering of Sulfur
+K:731:/3500 # Smattering of Saltpetre
+K:732:/3500 # Dash of Ammonia Salt
+K:733:/3500 # Smattering of Reactive Metal Powder
+K:734:/3500 # Dash of Caustic Metal Ash (\{oDISABLED\{.)
+K:735:/3500 # Dash of Caustic Metal Ash
+K:736:/3500 # Dash of Caustic Salt
+K:737:/3500 # Pinch of Vitriol
+
+# U:47:/3502 # Unknown Charge
+K:702:/3502 # Blast Charge
+K:703:/3502 # Large Blast Charge
+K:704:/3502 # Surgical Charge
+K:705:/3502 # Ground-shaking Charge
+K:706:/3502 # Destructor-Charge
+K:707:/3502 # Fire Charge
+K:708:/3502 # Firestorm Charge
+K:709:/3502 # Firewall Charge
+K:710:/3502 # Wrecking Charge
+K:711:/3502 # Cascading Charge
+K:712:/3502 # Tactical Charge
+K:713:/3502 # Flash bomb
+K:714:/3502 # Concussive Charge
+K:715:/3502 # Large Concussive Charge
+K:716:/3502 # Underground Charge
+
