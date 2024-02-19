@@ -4,6 +4,19 @@
 # This file defines special attr/char mappings for use in "graphics" mode.
 #
 
+################# Terrain features #################
+### F:?:?/?
+### F : (Terrain ID number from f_info.txt) : (Changing color, if you do not want to change the color keep blank) / (Char number of font glyph)
+
+##### Floors (white / centered dot) #####
+
+F:1:/50 # Open floor
+F:91:/50 # Sand
+F:93:/50 # Ash
+F:102:/50 # Nether mist
+
+
+
 ################# Objects #################
 
 ##### Mushrooms #####
