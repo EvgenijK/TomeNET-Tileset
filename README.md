@@ -58,8 +58,8 @@ GraphicTiles=16x22sv
 
 There are some known problems with using graphics right now:
 
-- [monster list shows wrong tiles](https://github.com/TomenetGame/tomenet/issues/50)  
-- [interface crash and packet errors if there is no graphic tiles for "Floor" features](https://github.com/TomenetGame/tomenet/issues/51)
+- monster list shows wrong tiles https://github.com/TomenetGame/tomenet/issues/50
+- interface crash and packet errors if there is no graphic tiles for "Floor" features https://github.com/TomenetGame/tomenet/issues/51
 - in character overview window items that have tiles are not displayed correctly
 - Windows: game launch take much more time (few minutes)
-- fps slowndown if there are many graphic tiles on screen
+- [SOLVED] fps slowndown if there are many graphic tiles on screen https://github.com/TomenetGame/tomenet/issues/59
