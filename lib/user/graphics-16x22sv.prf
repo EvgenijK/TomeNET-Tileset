@@ -16,9 +16,10 @@
 ##### Floors (white / centered dot) #####
 
 F:1:/50 # open floor
+F:137:/50 # open floor (Permanent floor, added for t_refuge.txt, just to prevent monster spawn)
 F:91:/62 # sand
-F:93:/50 # ash
-F:102:/50 # nether mist
+F:93:/63 # ash
+F:102:/64 # nether mist
 
 F:83:/51 # snow
 F:88:/51 # dirt
@@ -41,11 +42,9 @@ F:86:/56 # stream of shallow lava
 
 # No tiles in TG
 # F:31:/50 # open floor
-# F:82:/50 # solidified clouds
 # F:122:/50 # star
 # F:133:/50 # off-grid floor
-# F:134:/50 # inn floor
-# F:137:/50 # open floor
+F:134:/50 # inn floor
 # F:138:/50 # alpha-transparent floor
 # F:172:/50 # floor
 # F:208:/50 # team A goal
@@ -53,8 +52,8 @@ F:86:/56 # stream of shallow lava
 # F:226:/50 # highly protected floor
 # F:236:/50 # barred floor
 
-F:18:/54 # crops
-F:19:/51 # loose dirt
+F:18:/68 # crops
+F:19:/69 # loose dirt
 
 F:199:/54 # grass with flowers
 
@@ -64,7 +63,7 @@ F:189:/261 # illusion wall
 
 F:202:/58 # ivy
 
-F:173:/250 # underground tunnel
+F:173:/59 # underground tunnel
 F:204:/59 # underground tunnel
 
 F:82:/60 # solidified clouds
@@ -78,11 +77,23 @@ F:174:/56 # stream of tainted water
 F:110:/56 # puddle of water
 F:94:/56 # mud
 
+F:205:/65 # blazing fire (for mount doom)
+
+F:160:/66 # void jumpgate
+
+F:161:/67 # altar of being
+F:162:/67 # altar of winds
+F:163:/67 # altar of force
+F:164:/67 # altar of darkness
+
+F:232:/50 # sickbay area
+
+F:235:/271 # shattered mirror
 
 ##### Fountains #####
 
 F:2:/350 # fountain
-# F:15:/350 # dried out fountain
+F:15:/358 # dried out fountain
 F:27:/350 # fountain of blood
 
 ##### Glyphs #####
@@ -170,6 +181,8 @@ F:51:/268 # quartz vein
 F:53:/268 # quartz vein
 F:55:/268 # quartz vein with treasure
 
+F:234:/270 # grand mirror
+
 ## Permanent walls
 
 F:21:/262 # signpost
@@ -214,10 +227,16 @@ F:211:/56 # decorative shallow water (for Gondolin's fountain in town centre)
 
 F:107:/61 # bottomless, cloudy sky (Cloud Planes walls)
 
-
 F:159:/267 # magma intrusion (permanent magma vein)
 
 F:206:/ 357 # pile of rubble (Permanent rubble -- town use)
+
+F:212:/269 # Decorative violet crystal Gondolin
+F:213:/269 # Decorative blue crystal Gondolin
+F:214:/269 # Decorative green crystal Gondolin
+F:215:/269 # Decorative yellow crystal
+F:216:/269 # Decorative orange crystal
+F:217:/269 # Decorative red crystal
 
 
 
