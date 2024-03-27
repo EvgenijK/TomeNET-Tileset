@@ -41,15 +41,14 @@ F:188:/252 # glass wall
 F:86:/56 # stream of shallow lava
 
 # No tiles in TG
-# F:31:/50 # open floor
-# F:122:/50 # star
-# F:133:/50 # off-grid floor
+F:31:/50 # open floor
+F:133:/50 # off-grid floor
 F:134:/50 # inn floor
-# F:138:/50 # alpha-transparent floor
-# F:172:/50 # floor
+F:138:/50 # alpha-transparent floor
+F:172:/50 # floor (Used as a marked for random quests)
 # F:208:/50 # team A goal
 # F:209:/50 # team B goal
-# F:226:/50 # highly protected floor
+F:226:/50 # highly protected floor
 # F:236:/50 # barred floor
 
 F:18:/68 # crops
@@ -77,9 +76,8 @@ F:174:/56 # stream of tainted water
 F:110:/56 # puddle of water
 F:94:/56 # mud
 
-F:205:/65 # blazing fire (for mount doom)
-
 F:160:/66 # void jumpgate
+F:105:/66 # unstable void jumpgate
 
 F:161:/67 # altar of being
 F:162:/67 # altar of winds
@@ -89,6 +87,20 @@ F:164:/67 # altar of darkness
 F:232:/50 # sickbay area
 
 F:235:/271 # shattered mirror
+
+# Fire
+
+F:141:/70 # embers
+
+F:143:/71 # small campfire
+F:144:/72 # campfire
+
+F:145:/73 # burning torch
+
+F:142:/74 # small fire
+F:178:/75 # great fire
+F:186:/76 # blazing fire
+F:205:/76 # blazing fire (for mount doom)
 
 ##### Fountains #####
 
@@ -192,22 +204,21 @@ F:23:/264 # logs
 
 F:26:/250 # permanent wall for houses
 F:28:/250 # permanent wall for upper storeys (no light)
-# N:29:permanent wall (fake-wall)
+F:29:/250 # permanent wall (fake-wall)
 F:60:/250 # permanent wall basic/extra (perm) (for stores)
-F:61:/250 # permanent wall inner (perm) (for vaults)
-F:62:/250 # permanent wall outer (perm) (for vaults)
-F:63:/250 # permanent wall solid (perm) (for vaults)
+F:61:/251 # permanent wall inner (perm) (for vaults)
+F:62:/251 # permanent wall outer (perm) (for vaults)
+F:63:/251 # permanent wall solid (perm) (for vaults)
 F:75:/250 # permanent wall (quest?)
 F:76:/250 # permanent wall (quest?)
 F:77:/250 # permanent wall (quest?)
 F:78:/250 # permanent wall (quest?)
-F:80:/250 # spirit wall (permanent wall in the Nether Realm)
-# F:125: # marble wall (???)
+F:80:/251 # spirit wall (permanent wall in the Nether Realm)
 F:139:/453 # an evergreen conifer (xmas tree)
 F:177:/260 # lava wall
-F:183:/250 # permanent wall (dungeon borders)
-# F:184:/ # permanent wall (dungeon borders, but special extended colour)
-# F:185:/ # permanent wall (dungeon borders, but special animated colour aka search lights)
+F:183:/251 # permanent wall (dungeon borders)
+F:184:/251 # permanent wall (dungeon borders, but special extended colour)
+F:185:/251 # permanent wall (dungeon borders, but special animated colour aka search lights)
 F:190:/265 # Grass roof
 F:191:/265 # grass roof top
 F:192:/266 # grass roof chimney
@@ -238,7 +249,40 @@ F:215:/269 # Decorative yellow crystal
 F:216:/269 # Decorative orange crystal
 F:217:/269 # Decorative red crystal
 
+F:30:/272 # wooden table
 
+F:125:/250 # marble wall
+F:126:/273 # marble balustrade '-'
+F:127:/274 # marble balustrade '|'
+F:128:/275 # marble balustrade '/'
+F:129:/276 # marble balustrade '\'
+F:130:/277 # marble balustrade 'o'
+
+F:122:/278 # star '.'
+F:123:/279 # star '+'
+F:124:/280 # star '*'
+
+F:116:/281 # bars '-'
+F:117:/282 # bars '|'
+F:118:/283 # bars '/'
+F:119:/284 # bars '\'
+F:120:/285 # bars 'o'
+
+F:111:/281 # cordon '-'
+F:112:/282 # cordon '|'
+F:113:/283 # cordon '/'
+F:114:/284 # cordon '\'
+F:115:/285 # cordon 'o'
+
+F:196:/286 # window
+F:197:/287 # small window
+
+F:198:/288 # rain barrel
+
+F:131:/289 # hearthfire
+F:132:/290 # hearthfire's embers
+
+F:140:/291 # decorative glowing sphere (for xmas tree top)
 
 ##### ??? #####
 
@@ -1312,225 +1356,232 @@ K:715:/3502 # Large Concussive Charge
 K:716:/3502 # Underground Charge
 
 
-################# Monsters #################
+################# Monster features #################
+### R:?:?/?
+### R : (Monster ID number from r_info.txt) : (Changing color, if you do not want to change the color keep blank) / (Char number of glyph)
+### ***IMPORTANT*** But in this monster case, the proper monster number is '[ (monster id numer) - 12 ]'
 
-# ### "p" monsters
-#
-# ## tier 0 "p"s (no graphic remap)
-# # R:31:/ # Level=2 NAME='Novice warrior' Comments=
-# # R:32:/ # Level=2 NAME='Novice rogue' Comments=
-# # R:33:/ # Level=2 NAME='Novice priest' Comments=
-# # R:34:/ # Level=2 NAME='Novice mage' Comments=
-# # R:71:/ # Level=4 NAME='Novice ranger' Comments=
-# # R:81:/ # Level=6 NAME='Novice mage' Comments=
-# # R:85:/ # Level=4 NAME='Novice paladin' Comments=
-# # R:97:/ # Level=6 NAME='Novice priest' Comments=
-# # R:98:/ # Level=6 NAME='Novice warrior' Comments=
-# # R:104:/ # Level=6 NAME='Novice rogue' Comments=
-# # R:16:/ # Level=8 NAME='Novice ranger' Comments=
-# # R:135:/ # Level=8 NAME='Novice paladin' Comments=
-# # R:138:/ # Level=10 NAME='Bandit' Comments=
-# # R:187:/ # Level=10 NAME='Brigand' Comments=
-# # R:204:/ # Level=12 NAME='Swordsman' Comments=
-# # R:228:/ # Level=13 NAME='Illusionist' Comments=
-# # R:988:/ # Level=4 NAME='Novice mindcrafter' Comments=
-# # R:1032:/ # Level=15 NAME='Positivist' Comments=
-#
-# ## tier I "p"s
-# # tier I "p" warriors: cannot summon
-# R:360:/0 # Level=23 NAME='Hardened warrior' Comments=p I
-# R:364:/0 # Level=23 NAME='Master rogue' Comments=p I
-# R:473:/0 # Level=32 NAME='Ninja' Comments=p I
-# R:520:/0 # Level=35 NAME='Dagashi' Comments=p I
-# R:1035:/1 # Level=20 NAME='Unbeliever' Comments=p I with minus under head
-# R:1036:/1 # Level=30 NAME='Unbeliever' Comments=p I with minus under head
-# R:334:/0 # Level=20 NAME='Paladin' Comments=p I
-# R:358:/0 # Level=23 NAME='Jade monk' Comments=p I
-# R:430:/0 # Level=28 NAME='Black knight' Comments=p I
-# R:485:/0 # Level=33 NAME='Anti-paladin' Comments=p I
-#
-# # tier I "p" mages: ranged with summons
-# R:229:/2 # Level=13 NAME='Druid' Comments=p I with hollow thorns and an eye
-# R:333:/2 # Level=20 NAME='Ranger' Comments=p I with hollow thorns and an eye
-# R:437:/2 # Level=28 NAME='Mage' Comments=p I with hollow thorns and an eye
-# R:213:/2 # Level=12 NAME='Priest' Comments=p I with hollow thorns and an eye
-# R:1005:/2 # Level=17 NAME='Cultist' Comments=p I with hollow thorns and an eye
-#
-# # tier I "p" hybrids: melee with magic(summons)
-# R:150:/3 # Level=20 NAME='Mindcrafter' Comments=p I with hollow thorns
-# R:976:/3 # Level=33 NAME='Mystic' Comments=p I with hollow thorns
-#
-# ## tier II "p"s
-#
-# # tier II "p" warriors: cannot summon
-# R:281:/4 # Level=45 NAME='Berserker' Comments=p II
-# R:480:/4 # Level=33 NAME='Ivory monk' Comments=p II
-# R:504:/4 # Level=34 NAME='Master thief' Comments=p II
-# R:1037:/5 # Level=50 NAME='Master Unbeliever' Comments=p II with minus under head
-# R:1046:/4 # Level=40 NAME='Swordsmaster' Comments=p II
-# # R:1008:/ # Level=45 NAME='Avatar of Nyarlathotep' Comments=// NO TILE protected at server CHANGER
-#
-# # tier II "p" mages: ranged with summons
-# R:626:/6 # Level=40 NAME='Sorcerer' Comments=p II with hollow thorns and an eye
-# R:559:/6 # Level=36 NAME='Necromancer' Comments=p II with hollow thorns and an eye
-# R:624:/6 # Level=40 NAME='Enchantress' Comments=p II with hollow thorns and an eye
-# R:677:/6 # Level=40 NAME='Patriarch' Comments=p II with hollow thorns and an eye
-# R:979:/6 # Level=36 NAME='Demonologist' Comments=p II with hollow thorns and an eye
-#
-# # tier II "p" hybrids: melee with magic(summons)
-# R:486:/7 # Level=37 NAME='Chaos master' Comments=p II with hollow thorns
-# R:585:/7 # Level=38 NAME='Death knight' Comments=p II with hollow thorns
-# R:433:/7 # Level=28 NAME='Clairvoyant' Comments=p II with hollow thorns
-# R:635:/7 # Level=40 NAME='Wyrd sister' Comments=p II with hollow thorns
-# R:985:/7 # Level=50 NAME='Master mystic' Comments=p II with hollow thorns
-#
-# ## tier III "p"s
-#
-# # "p" warriors: cannot summon
-# R:684:/8 # Level=46 NAME='Grand master thief' Comments=p III
-# R:1038:/9 # Level=57 NAME='True Believer' Comments=p III with minus under head
-# R:1047:/8 # Level=60 NAME='Grand Swordsmaster' Comments=p III
-# R:1068:/8 # Level=97 NAME='Minion of Doom' Comments=p III
-# # R:954:/8 # Level=61 NAME='Dolphiner' Comments=p III SPECIAL watery
-#
-# # "p" mages: ranged with summons
-# R:726:/10 # Level=54 NAME='Old Sorcerer' Comments=p III with hollow thorns and an eye
-# R:1006:/10 # Level=47 NAME='Cult leader' Comments=p III with hollow thorns and an eye
-# R:625:/10 # Level=41 NAME='Ranger chieftain' Comments=p III actually p II hard with hollow thorns and an eye
-#
-# # "p" hybrids: melee with magic(summons)
-# R:986:/11 # Level=57 NAME='Grand master mystic' Comments=p III with hollow thorns
-# R:719:/11 # Level=52 NAME='Hell knight' Comments=p III with hollow thorns
-# R:787:/11 # Level=40 NAME='Master mindcrafter' Comments=p III with hollow thorns
-# R:687:/11 # Level=44 NAME='Knight Templar' Comments=p III with hollow thorns
-# # R:725:/ # Level=60 NAME='Lord of Chaos' Comments=// NO TILE protected at server CHANGER
-#
-# # special "p"s
-# #R:681:/228 # Level=45 NAME='Warrior of the Dawn' Comments=p SPECIAL multiple warriors.. Clones? Shadow?
-#
-# ### "D" - Dragons
-#
-# ## tier 0 "D"s
-#
-# # "D" warriors: cannot summon (no graphic remap)
-# #R:589:/ # Level=40 NAME='Ancient blue dragon' Comments=
-# #R:590:/ # Level=40 NAME='Ancient bronze dragon' Comments=
-# #R:605:/ # Level=40 NAME='Ancient white dragon' Comments=
-# #R:606:/ # Level=40 NAME='Ancient green dragon' Comments=
-# #R:612:/ # Level=41 NAME='Ancient black dragon' Comments=
-# #R:631:/ # Level=45 NAME='Death drake' Comments=
-# #R:632:/ # Level=41 NAME='Ancient red dragon' Comments=
-# #R:633:/ # Level=41 NAME='Ancient gold dragon' Comments=
-# #R:634:/ # Level=45 NAME='Great crystal drake' Comments=
-# #R:663:/ # Level=43 NAME='Ancient multi-hued dragon' Comments=
-# #R:664:/ # Level=45 NAME='Ethereal dragon' Comments=
-# ## R:902:/ # Level=41 NAME='Ancient dragon turtle' Comments=
-# #R:1097:/ # Level=41 NAME='Ancient silver dragon' Comments=
-#
-# # "D" wraiths: pass wall
-# R:664:/26 # Level=45 NAME='Ethereal dragon' Comments=D 0 with grid holes
-# R:631:/26 # Level=45 NAME='Death drake' Comments=D 0 with grid holes
-#
-# ## tier I "D"s
-#
-# # "D" warriors: cannot summon (no graphic remap)
-# #R:689:/12 # Level=55 NAME='Dracolich' Comments=D I drakolich
-# #R:691:/12 # Level=55 NAME='Dracolisk' Comments=D I dracolisk
-# #R:716:/12 # Level=63 NAME='Great Storm Wyrm' Comments=D I wyrm
-# #R:729:/12 # Level=63 NAME='Great Ice Wyrm' Comments=D I wyrm
-# #R:744:/12 # Level=67 NAME='Great Hell Wyrm' Comments=D I wyrm
-# #R:903:/12 # Level=52 NAME='Fastitocalon' Comments=D I turtle
-# #R:926:/12 # Level=63 NAME='Great Swamp Wyrm' Comments=D I wyrm
-# #R:927:/12 # Level=67 NAME='Great Bile Wyrm' Comments=D I wyrm
-# #R:990:/12 # Level=63 NAME='Great Wyrm of Perplexity' Comments=D I wyrm
-# #R:992:/12 # Level=67 NAME='Great Wyrm of Thunder' Comments=D I wyrm
-# #R:1098:/12 # Level=65 NAME='Great Wyrm of Radiance' Comments=D I wyrm
-#
-# # Dragonroders, also "D" warriors: cannot summon (no graphic remap)
-# #R:943:/211 # Level=30 NAME='Green Dragonrider' Comments=D I SPECIAL dragonrider
-# #R:944:/211 # Level=40 NAME='Blue Dragonrider' Comments=D I SPECIAL dragonrider
-# #R:945:/211 # Level=50 NAME='Brown Dragonrider' Comments=D I SPECIAL dragonrider
-# #R:946:/211 # Level=60 NAME='Bronze Dragonrider' Comments=D I SPECIAL dragonrider
-#
-# ## tier II "D"s
-#
-# # "D" hybrids: melee with magic(summons)
-# R:771:/13 # Level=75 NAME='Great Wyrm of Chaos' Comments=D II wyrm with hollow thorns
-# R:772:/13 # Level=75 NAME='Great Wyrm of Law' Comments=D II wyrm with hollow thorns
-# R:781:/13 # Level=77 NAME='Sky Drake' Comments=D II dragon with hollow thorns
-#
-# # Dragonroders(hybrids): melee with magic(summons)
-# # R:947:/212 # Level=70 NAME='Gold Dragonrider' Comments=D II SPECIAL dragonrider
-#
-# ## tier III "D"s
-# # "D" warriors: cannot summon
-# R:778:/14 # Level=80 NAME='Great Wyrm of Many Colours' Comments=D III wyrm with solid thorns
-# # "D" hybrids: melee with magic(summons)
-# R:773:/15 # Level=80 NAME='Great Wyrm of Balance' Comments=D III wyrm with hollow thorns
-#
-# ## tier IV "D"s
-# # "D" hybrids: melee with magic(summons)
-# R:835:/16 # Level=85 NAME='Great Wyrm of Power' Comments=D IV wyrm with hollow thorns
-#
-# # special "D"s (no graphic remap)
-# # R:1101:/213 # Level=71 NAME='Great Dragon of Bad Luck' Comments=D SPECIAL arrow down pass_walls
-#
-# # "U" - Demons
-# # IDEA - indicate diggers
-#
-# ## tier "-1" "U"s
-#
-# # "U" warriors: cannot summon (no graphic remap)
-# # R:511:/ # Level=34 NAME='Bloodletter of Khorne' Comments=
-# # R:1048:/ # Level=35 NAME='Incubus' Comments=
-# # R:1049:/ # Level=35 NAME='Succubus' Comments=
-# # R:596:/ # Level=38 NAME='Nightgaunt' Comments=
-# # R:597:/ # Level=38 NAME='Baron of hell' Comments=
-# # R:987:/ # Level=38 NAME='Erinyes' Comments=
-# # R:636:/ # Level=40 NAME='Vrock' Comments=
-# # R:912:/ # Level=40 NAME='Water demon' Comments=
-#
-# ## tier 0 "U"s
-#
-# # "U" hybrids: melee with magic(summons)
-# R:647:/17 # Level=41 NAME='Byakhee' Comments=U 0
-# R:650:/17 # Level=41 NAME='Formless spawn of Tsathoggua' Comments=U 0
-# R:651:/17 # Level=42 NAME='Hunting horror' Comments=U 0
-# R:665:/17 # Level=43 NAME='Dark young of Shub-Niggurath' Comments=U 0
-# R:980:/17 # Level=41 NAME='Hezrou' Comments=U 0
-# R:981:/17 # Level=43 NAME='Glabrezu' Comments=U 0
-# R:982:/17 # Level=45 NAME='Nalfeshnee' Comments=U 0
-# R:983:/17 # Level=47 NAME='Marilith' Comments=U 0
-#
-# ## tier I "U"s
-#
-# # "U" warriors: cannot summon
-# R:746:/17 # Level=55 NAME='Bloodthirster' Comments=U I
-#
-# # "U" hybrids: melee with magic(summons)
-# R:708:/19 # Level=55 NAME='Barbazu' Comments=U I  with eyes
-# R:724:/19 # Level=53 NAME='Great unclean one' Comments=U I with eyes
-# R:733:/19 # Level=54 NAME='Lord of Change' Comments=U I with eyes
-# R:751:/19 # Level=61 NAME='Bile Demon' Comments=U I with eyes
-# R:761:/19 # Level=65 NAME='Osyluth' Comments=U I with eyes
-#
-# # "U" hybrids: melee with magic(summons) diggers
-# R:707:/20 # Level=51 NAME='Nycadaemon' Comments=U I with eyes and scars
-# R:984:/20 # Level=49 NAME='Lesser Balrog' Comments=U I with eyes and scars
-#
-# ## tier II "U"s
-#
-# # "U" warriors: cannot summon
-# R:804:/22 # Level=77 NAME='Cyberdemon' Comments=U II, special char
-#
-# # "U" hybrids: melee with magic(summons)
-# R:775:/21 # Level=69 NAME='Gelugon' Comments=U II with eyes
-# R:800:/21 # Level=77 NAME='Pit Fiend' Comments=U II with eyes
-# R:783:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
-# R:1134:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
-#
-# ## tier III "U"s
-# # "U" hybrids: melee with magic(summons)
-# R:795:/23 # Level=80 NAME='Greater Balrog' Comments=U III with eyes and scars
-# R:824:/24 # Level=86 NAME='Star-spawn of Cthulhu' Comments=U III with eyes
+R:299:/353 # Door Mimic
+R:1070:/66 # Void Jumpgate Mimic
+
+
+### "p" monsters
+
+## tier 0 "p"s (no graphic remap)
+# R:31:/ # Level=2 NAME='Novice warrior' Comments=
+# R:32:/ # Level=2 NAME='Novice rogue' Comments=
+# R:33:/ # Level=2 NAME='Novice priest' Comments=
+# R:34:/ # Level=2 NAME='Novice mage' Comments=
+# R:71:/ # Level=4 NAME='Novice ranger' Comments=
+# R:81:/ # Level=6 NAME='Novice mage' Comments=
+# R:85:/ # Level=4 NAME='Novice paladin' Comments=
+# R:97:/ # Level=6 NAME='Novice priest' Comments=
+# R:98:/ # Level=6 NAME='Novice warrior' Comments=
+# R:104:/ # Level=6 NAME='Novice rogue' Comments=
+# R:16:/ # Level=8 NAME='Novice ranger' Comments=
+# R:135:/ # Level=8 NAME='Novice paladin' Comments=
+# R:138:/ # Level=10 NAME='Bandit' Comments=
+# R:187:/ # Level=10 NAME='Brigand' Comments=
+# R:204:/ # Level=12 NAME='Swordsman' Comments=
+# R:228:/ # Level=13 NAME='Illusionist' Comments=
+# R:988:/ # Level=4 NAME='Novice mindcrafter' Comments=
+# R:1032:/ # Level=15 NAME='Positivist' Comments=
+
+## tier I "p"s
+# tier I "p" warriors: cannot summon
+R:360:/0 # Level=23 NAME='Hardened warrior' Comments=p I
+R:364:/0 # Level=23 NAME='Master rogue' Comments=p I
+R:473:/0 # Level=32 NAME='Ninja' Comments=p I
+R:520:/0 # Level=35 NAME='Dagashi' Comments=p I
+R:1035:/1 # Level=20 NAME='Unbeliever' Comments=p I with minus under head
+R:1036:/1 # Level=30 NAME='Unbeliever' Comments=p I with minus under head
+R:334:/0 # Level=20 NAME='Paladin' Comments=p I
+R:358:/0 # Level=23 NAME='Jade monk' Comments=p I
+R:430:/0 # Level=28 NAME='Black knight' Comments=p I
+R:485:/0 # Level=33 NAME='Anti-paladin' Comments=p I
+
+# tier I "p" mages: ranged with summons
+R:229:/2 # Level=13 NAME='Druid' Comments=p I with hollow thorns and an eye
+R:333:/2 # Level=20 NAME='Ranger' Comments=p I with hollow thorns and an eye
+R:437:/2 # Level=28 NAME='Mage' Comments=p I with hollow thorns and an eye
+R:213:/2 # Level=12 NAME='Priest' Comments=p I with hollow thorns and an eye
+R:1005:/2 # Level=17 NAME='Cultist' Comments=p I with hollow thorns and an eye
+
+# tier I "p" hybrids: melee with magic(summons)
+R:150:/3 # Level=20 NAME='Mindcrafter' Comments=p I with hollow thorns
+R:976:/3 # Level=33 NAME='Mystic' Comments=p I with hollow thorns
+
+## tier II "p"s
+
+# tier II "p" warriors: cannot summon
+R:281:/4 # Level=45 NAME='Berserker' Comments=p II
+R:480:/4 # Level=33 NAME='Ivory monk' Comments=p II
+R:504:/4 # Level=34 NAME='Master thief' Comments=p II
+R:1037:/5 # Level=50 NAME='Master Unbeliever' Comments=p II with minus under head
+R:1046:/4 # Level=40 NAME='Swordsmaster' Comments=p II
+# R:1008:/ # Level=45 NAME='Avatar of Nyarlathotep' Comments=// NO TILE protected at server CHANGER
+
+# tier II "p" mages: ranged with summons
+R:626:/6 # Level=40 NAME='Sorcerer' Comments=p II with hollow thorns and an eye
+R:559:/6 # Level=36 NAME='Necromancer' Comments=p II with hollow thorns and an eye
+R:624:/6 # Level=40 NAME='Enchantress' Comments=p II with hollow thorns and an eye
+R:677:/6 # Level=40 NAME='Patriarch' Comments=p II with hollow thorns and an eye
+R:979:/6 # Level=36 NAME='Demonologist' Comments=p II with hollow thorns and an eye
+
+# tier II "p" hybrids: melee with magic(summons)
+R:486:/7 # Level=37 NAME='Chaos master' Comments=p II with hollow thorns
+R:585:/7 # Level=38 NAME='Death knight' Comments=p II with hollow thorns
+R:433:/7 # Level=28 NAME='Clairvoyant' Comments=p II with hollow thorns
+R:635:/7 # Level=40 NAME='Wyrd sister' Comments=p II with hollow thorns
+R:985:/7 # Level=50 NAME='Master mystic' Comments=p II with hollow thorns
+
+## tier III "p"s
+
+# "p" warriors: cannot summon
+R:684:/8 # Level=46 NAME='Grand master thief' Comments=p III
+R:1038:/9 # Level=57 NAME='True Believer' Comments=p III with minus under head
+R:1047:/8 # Level=60 NAME='Grand Swordsmaster' Comments=p III
+R:1068:/8 # Level=97 NAME='Minion of Doom' Comments=p III
+# R:954:/8 # Level=61 NAME='Dolphiner' Comments=p III SPECIAL watery
+
+# "p" mages: ranged with summons
+R:726:/10 # Level=54 NAME='Old Sorcerer' Comments=p III with hollow thorns and an eye
+R:1006:/10 # Level=47 NAME='Cult leader' Comments=p III with hollow thorns and an eye
+R:625:/10 # Level=41 NAME='Ranger chieftain' Comments=p III actually p II hard with hollow thorns and an eye
+
+# "p" hybrids: melee with magic(summons)
+R:986:/11 # Level=57 NAME='Grand master mystic' Comments=p III with hollow thorns
+R:719:/11 # Level=52 NAME='Hell knight' Comments=p III with hollow thorns
+R:787:/11 # Level=40 NAME='Master mindcrafter' Comments=p III with hollow thorns
+R:687:/11 # Level=44 NAME='Knight Templar' Comments=p III with hollow thorns
+# R:725:/ # Level=60 NAME='Lord of Chaos' Comments=// NO TILE protected at server CHANGER
+
+# special "p"s
+#R:681:/228 # Level=45 NAME='Warrior of the Dawn' Comments=p SPECIAL multiple warriors.. Clones? Shadow?
+
+### "D" - Dragons
+
+## tier 0 "D"s
+
+# "D" warriors: cannot summon (no graphic remap)
+#R:589:/ # Level=40 NAME='Ancient blue dragon' Comments=
+#R:590:/ # Level=40 NAME='Ancient bronze dragon' Comments=
+#R:605:/ # Level=40 NAME='Ancient white dragon' Comments=
+#R:606:/ # Level=40 NAME='Ancient green dragon' Comments=
+#R:612:/ # Level=41 NAME='Ancient black dragon' Comments=
+#R:631:/ # Level=45 NAME='Death drake' Comments=
+#R:632:/ # Level=41 NAME='Ancient red dragon' Comments=
+#R:633:/ # Level=41 NAME='Ancient gold dragon' Comments=
+#R:634:/ # Level=45 NAME='Great crystal drake' Comments=
+#R:663:/ # Level=43 NAME='Ancient multi-hued dragon' Comments=
+#R:664:/ # Level=45 NAME='Ethereal dragon' Comments=
+## R:902:/ # Level=41 NAME='Ancient dragon turtle' Comments=
+#R:1097:/ # Level=41 NAME='Ancient silver dragon' Comments=
+
+# "D" wraiths: pass wall
+R:664:/26 # Level=45 NAME='Ethereal dragon' Comments=D 0 with grid holes
+R:631:/26 # Level=45 NAME='Death drake' Comments=D 0 with grid holes
+
+## tier I "D"s
+
+# "D" warriors: cannot summon (no graphic remap)
+#R:689:/12 # Level=55 NAME='Dracolich' Comments=D I drakolich
+#R:691:/12 # Level=55 NAME='Dracolisk' Comments=D I dracolisk
+#R:716:/12 # Level=63 NAME='Great Storm Wyrm' Comments=D I wyrm
+#R:729:/12 # Level=63 NAME='Great Ice Wyrm' Comments=D I wyrm
+#R:744:/12 # Level=67 NAME='Great Hell Wyrm' Comments=D I wyrm
+#R:903:/12 # Level=52 NAME='Fastitocalon' Comments=D I turtle
+#R:926:/12 # Level=63 NAME='Great Swamp Wyrm' Comments=D I wyrm
+#R:927:/12 # Level=67 NAME='Great Bile Wyrm' Comments=D I wyrm
+#R:990:/12 # Level=63 NAME='Great Wyrm of Perplexity' Comments=D I wyrm
+#R:992:/12 # Level=67 NAME='Great Wyrm of Thunder' Comments=D I wyrm
+#R:1098:/12 # Level=65 NAME='Great Wyrm of Radiance' Comments=D I wyrm
+
+# Dragonroders, also "D" warriors: cannot summon (no graphic remap)
+#R:943:/211 # Level=30 NAME='Green Dragonrider' Comments=D I SPECIAL dragonrider
+#R:944:/211 # Level=40 NAME='Blue Dragonrider' Comments=D I SPECIAL dragonrider
+#R:945:/211 # Level=50 NAME='Brown Dragonrider' Comments=D I SPECIAL dragonrider
+#R:946:/211 # Level=60 NAME='Bronze Dragonrider' Comments=D I SPECIAL dragonrider
+
+## tier II "D"s
+
+# "D" hybrids: melee with magic(summons)
+R:771:/13 # Level=75 NAME='Great Wyrm of Chaos' Comments=D II wyrm with hollow thorns
+R:772:/13 # Level=75 NAME='Great Wyrm of Law' Comments=D II wyrm with hollow thorns
+R:781:/13 # Level=77 NAME='Sky Drake' Comments=D II dragon with hollow thorns
+
+# Dragonroders(hybrids): melee with magic(summons)
+# R:947:/212 # Level=70 NAME='Gold Dragonrider' Comments=D II SPECIAL dragonrider
+
+## tier III "D"s
+# "D" warriors: cannot summon
+R:778:/14 # Level=80 NAME='Great Wyrm of Many Colours' Comments=D III wyrm with solid thorns
+# "D" hybrids: melee with magic(summons)
+R:773:/15 # Level=80 NAME='Great Wyrm of Balance' Comments=D III wyrm with hollow thorns
+
+## tier IV "D"s
+# "D" hybrids: melee with magic(summons)
+R:835:/16 # Level=85 NAME='Great Wyrm of Power' Comments=D IV wyrm with hollow thorns
+
+# special "D"s (no graphic remap)
+# R:1101:/213 # Level=71 NAME='Great Dragon of Bad Luck' Comments=D SPECIAL arrow down pass_walls
+
+# "U" - Demons
+# IDEA - indicate diggers
+
+## tier "-1" "U"s
+
+# "U" warriors: cannot summon (no graphic remap)
+# R:511:/ # Level=34 NAME='Bloodletter of Khorne' Comments=
+# R:1048:/ # Level=35 NAME='Incubus' Comments=
+# R:1049:/ # Level=35 NAME='Succubus' Comments=
+# R:596:/ # Level=38 NAME='Nightgaunt' Comments=
+# R:597:/ # Level=38 NAME='Baron of hell' Comments=
+# R:987:/ # Level=38 NAME='Erinyes' Comments=
+# R:636:/ # Level=40 NAME='Vrock' Comments=
+# R:912:/ # Level=40 NAME='Water demon' Comments=
+
+## tier 0 "U"s
+
+# "U" hybrids: melee with magic(summons)
+R:647:/17 # Level=41 NAME='Byakhee' Comments=U 0
+R:650:/17 # Level=41 NAME='Formless spawn of Tsathoggua' Comments=U 0
+R:651:/17 # Level=42 NAME='Hunting horror' Comments=U 0
+R:665:/17 # Level=43 NAME='Dark young of Shub-Niggurath' Comments=U 0
+R:980:/17 # Level=41 NAME='Hezrou' Comments=U 0
+R:981:/17 # Level=43 NAME='Glabrezu' Comments=U 0
+R:982:/17 # Level=45 NAME='Nalfeshnee' Comments=U 0
+R:983:/17 # Level=47 NAME='Marilith' Comments=U 0
+
+## tier I "U"s
+
+# "U" warriors: cannot summon
+R:746:/17 # Level=55 NAME='Bloodthirster' Comments=U I
+
+# "U" hybrids: melee with magic(summons)
+R:708:/19 # Level=55 NAME='Barbazu' Comments=U I  with eyes
+R:724:/19 # Level=53 NAME='Great unclean one' Comments=U I with eyes
+R:733:/19 # Level=54 NAME='Lord of Change' Comments=U I with eyes
+R:751:/19 # Level=61 NAME='Bile Demon' Comments=U I with eyes
+R:761:/19 # Level=65 NAME='Osyluth' Comments=U I with eyes
+
+# "U" hybrids: melee with magic(summons) diggers
+R:707:/20 # Level=51 NAME='Nycadaemon' Comments=U I with eyes and scars
+R:984:/20 # Level=49 NAME='Lesser Balrog' Comments=U I with eyes and scars
+
+## tier II "U"s
+
+# "U" warriors: cannot summon
+R:804:/22 # Level=77 NAME='Cyberdemon' Comments=U II, special char
+
+# "U" hybrids: melee with magic(summons)
+R:775:/21 # Level=69 NAME='Gelugon' Comments=U II with eyes
+R:800:/21 # Level=77 NAME='Pit Fiend' Comments=U II with eyes
+R:783:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
+R:1134:/21 # Level=72 NAME='Horned Reaper' Comments=U II with eyes
+
+## tier III "U"s
+# "U" hybrids: melee with magic(summons)
+R:795:/23 # Level=80 NAME='Greater Balrog' Comments=U III with eyes and scars
+R:824:/24 # Level=86 NAME='Star-spawn of Cthulhu' Comments=U III with eyes
 
