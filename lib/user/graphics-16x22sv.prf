@@ -68,10 +68,10 @@ F:204:/59 # underground tunnel
 F:82:/60 # solidified clouds
 
 F:187:/57 # pool of deep water
-F:85:/57 # pool of deep lava
+F:85:/157 # pool of deep lava
 
 F:84:/56 # stream of shallow water
-F:86:/56 # stream of shallow lava
+F:86:/156 # stream of shallow lava
 F:174:/56 # stream of tainted water
 F:110:/56 # puddle of water
 F:94:/56 # mud
@@ -202,18 +202,18 @@ F:21:/262 # signpost
 # F:22:/ # permanent wall
 F:23:/264 # logs
 
-F:26:/250 # permanent wall for houses
-F:28:/250 # permanent wall for upper storeys (no light)
-F:29:/250 # permanent wall (fake-wall)
-F:60:/250 # permanent wall basic/extra (perm) (for stores)
-F:61:/251 # permanent wall inner (perm) (for vaults)
-F:62:/251 # permanent wall outer (perm) (for vaults)
-F:63:/251 # permanent wall solid (perm) (for vaults)
+F:26:/251 # permanent wall for houses
+F:28:/251 # permanent wall for upper storeys (no light)
+F:29:/251 # permanent wall (fake-wall)
+F:60:/251 # permanent wall basic/extra (perm) (for stores)
+F:61:/250 # permanent wall inner (perm) (for vaults)
+F:62:/250 # permanent wall outer (perm) (for vaults)
+F:63:/250 # permanent wall solid (perm) (for vaults)
 F:75:/250 # permanent wall (quest?)
 F:76:/250 # permanent wall (quest?)
 F:77:/250 # permanent wall (quest?)
 F:78:/250 # permanent wall (quest?)
-F:80:/251 # spirit wall (permanent wall in the Nether Realm)
+F:80:/250 # spirit wall (permanent wall in the Nether Realm)
 F:139:/453 # an evergreen conifer (xmas tree)
 F:177:/260 # lava wall
 F:183:/251 # permanent wall (dungeon borders)
