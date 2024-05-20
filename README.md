@@ -3,10 +3,12 @@
 This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
 Its still in development.  
+Currently there is only 16x22 size.
 
 **Roadmap:**
 - [x] objects
 - [ ] terrain
+- [ ] more sizes
 - [ ] monsters
 
 Right now there are tiles only for objects(_stuff that you can put in you inventory_), like:
