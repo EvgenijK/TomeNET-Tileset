@@ -37,7 +37,7 @@ Right now there are tiles only for objects(_stuff that you can put in you invent
 ## How to setup
 
 First you need to use the test client as solution to avoid the several minutes of startup freeze in regular client.
-Windows only, link in bottom of the page: https://www.tomenet.eu/downloads.php?
+Windows only, link in bottom of the page: https://www.tomenet.eu/downloads.php?  
 For Linux you have to compile the client from soutce to get the test version.
 
 It might be needed to turn off "Solid walls" setting in `=1 font_map_solid_walls` to avoid seeing wrong tiles.
