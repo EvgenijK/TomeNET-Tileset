@@ -46,7 +46,7 @@ F:172:/50 # floor (Used as a marked for random quests)
 # F:208:/50 # team A goal
 # F:209:/50 # team B goal
 F:226:/50 # highly protected floor
-# F:236:/50 # barred floor
+F:236:/50 # barred floor
 
 F:18:/68 # crops
 F:19:/69 # loose dirt
@@ -99,6 +99,16 @@ F:178:/75 # great fire
 F:186:/76 # blazing fire
 F:205:/76 # blazing fire (for mount doom)
 
+
+F:208:/360 # team A goal
+F:209:/361 # team B goal
+
+F:203:/362 # town (Just to have a town entrance picture)
+
+F:175:/363 # monster trap
+
+F:233:/365 # Iridescent Gate
+
 ##### Fountains #####
 
 F:2:/350 # fountain
@@ -109,7 +119,7 @@ F:27:/350 # fountain of blood
 
 F:3:/351 # glyph of warding
 F:64:/352 # rune of warding
-F:175:/352 # monster trap
+# F:175:/352 # monster trap
 
 
 ##### Doors #####
@@ -280,6 +290,9 @@ F:131:/289 # hearthfire
 F:132:/290 # hearthfire's embers
 
 F:140:/291 # decorative glowing sphere (for xmas tree top)
+
+# F:182:/57 # Ekkaia, the Encircling Sea
+F:182:/158 # Ekkaia, the Encircling Sea
 
 ##### ??? #####
 
