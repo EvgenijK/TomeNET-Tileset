@@ -36,6 +36,12 @@ Right now there are tiles only for objects(_stuff that you can put in you invent
 
 ## How to setup
 
+First you need to use the test client as solution to avoid the several minutes of startup freeze in regular client.
+Windows only, link in bottom of the page: https://www.tomenet.eu/downloads.php?
+For Linux you have to compile the client from soutce to get the test version.
+
+It might be needed to turn off "Solid walls" setting in `=1 font_map_solid_walls` to avoid seeing wrong tiles.
+
 ### Linux 
 
 1) copy `lib` folder into your `tomenet` folder
@@ -58,6 +64,7 @@ GraphicTiles=16x22sv
 
 There are some known problems with using graphics right now:
 
+- Windows: bmp from github seems to be corrupted when using in windows. Re-saving it in graphic editor solved the issue (like in Paint)
 - monster list shows wrong tiles https://github.com/TomenetGame/tomenet/issues/50
 - interface crash and packet errors if there is no graphic tiles for "Floor" features https://github.com/TomenetGame/tomenet/issues/51
 - in character overview window items that have tiles are not displayed correctly
