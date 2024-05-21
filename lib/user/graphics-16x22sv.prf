@@ -74,7 +74,8 @@ F:110:/56 # puddle of water
 F:94:/56 # mud
 
 F:160:/66 # void jumpgate
-F:105:/66 # unstable void jumpgate
+F:105:/166 # unstable void jumpgate
+F:233:/66 # Iridescent Gate
 
 F:161:/67 # altar of being
 F:162:/67 # altar of winds
@@ -105,9 +106,7 @@ F:209:/361 # team B goal
 
 F:203:/362 # town (Just to have a town entrance picture)
 
-F:175:/363 # monster trap
 
-F:233:/364 # Iridescent Gate
 
 ##### Fountains #####
 
@@ -119,8 +118,8 @@ F:27:/350 # fountain of blood
 
 F:3:/351 # glyph of warding
 F:64:/352 # rune of warding
-# F:175:/352 # monster trap
-
+F:175:/363 # monster trap (not providing anti-summon)
+F:17:/364 # trap (for players) (not providing anti-summon)
 
 ##### Doors #####
 
@@ -297,7 +296,6 @@ F:182:/158 # Ekkaia, the Encircling Sea
 ##### ??? #####
 
 F:16:1/355 # spider webs
-# F:17:/ # trap
 F:87:/356 # dark pit
 
 
