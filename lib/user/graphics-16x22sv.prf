@@ -118,7 +118,7 @@ F:27:/350 # fountain of blood
 
 F:3:/351 # glyph of warding
 F:64:/352 # rune of warding
-# F:175:/363 # monster trap (not providing anti-summon)
+F:175:/363 # monster trap (not providing anti-summon)
 # F:17:/364 # trap (for players) (not providing anti-summon) # not user right now
 
 ##### Doors #####
