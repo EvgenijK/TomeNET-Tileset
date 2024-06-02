@@ -3,6 +3,302 @@
 # TomeNET graphics redefinitions for 16x22sv.bmp file.
 # This file defines special attr/char mappings for use in "graphics" mode.
 #
+# Highly inspired by Tangar's font https://tangar.info/en/t/tileset
+# And Urizen tileset https://vurmux.itch.io/urizen-onebit-tileset
+#
+
+################# Terrain features #################
+### F:?:?/?
+### F : (Terrain ID number from f_info.txt) : (Changing color, if you do not want to change the color keep blank) / (Char number of font glyph)
+
+# F:0:/ # Nothing
+
+##### Floors (white / centered dot) #####
+
+F:1:/50 # open floor
+F:137:/50 # open floor (Permanent floor, added for t_refuge.txt, just to prevent monster spawn)
+F:91:/62 # sand
+F:93:/63 # ash
+F:102:/64 # nether mist
+
+F:83:/51 # snow
+F:88:/51 # dirt
+
+# cobblestone road, protected floor
+F:109:/52 # volcanic rock
+F:200:/52 # cobblestone road
+F:201:/52 # cobblestone with outlet
+F:207:/52 # rocky ground
+
+F:89:/53 # patch of grass
+
+F:90:/55 # ice
+F:210:/55 # protected floor
+
+F:188:/252 # glass wall
+
+# No tiles in TG
+F:31:/50 # open floor
+F:133:/50 # off-grid floor
+F:134:/50 # inn floor
+F:138:/50 # alpha-transparent floor
+F:172:/50 # floor (Used as a marked for random quests)
+# F:208:/50 # team A goal
+# F:209:/50 # team B goal
+F:226:/50 # highly protected floor
+F:236:/50 # barred floor
+
+F:18:/68 # crops
+F:19:/69 # loose dirt
+
+F:199:/54 # grass with flowers
+
+F:24:/263 # drawbridge
+
+F:189:/261 # illusion wall
+
+F:202:/58 # ivy
+
+F:173:/59 # underground tunnel
+F:204:/59 # underground tunnel
+
+F:82:/60 # solidified clouds
+
+F:187:/57 # pool of deep water
+F:85:/157 # pool of deep lava
+
+F:84:/56 # stream of shallow water
+F:86:/156 # stream of shallow lava
+F:174:/56 # stream of tainted water
+F:110:/56 # puddle of water
+F:94:/56 # mud
+
+F:160:/66 # void jumpgate
+F:105:/166 # unstable void jumpgate
+F:233:/66 # Iridescent Gate
+
+F:161:/67 # altar of being
+F:162:/67 # altar of winds
+F:163:/67 # altar of force
+F:164:/67 # altar of darkness
+
+F:232:/50 # sickbay area
+
+F:235:/271 # shattered mirror
+
+# Fire
+
+F:141:/70 # embers
+
+F:143:/71 # small campfire
+F:144:/72 # campfire
+
+F:145:/73 # burning torch
+
+F:142:/74 # small fire
+F:178:/75 # great fire
+F:186:/76 # blazing fire
+F:205:/76 # blazing fire (for mount doom)
+
+
+F:208:/360 # team A goal
+F:209:/361 # team B goal
+
+F:203:/362 # town (Just to have a town entrance picture)
+
+
+
+##### Fountains #####
+
+F:2:/350 # fountain
+F:15:/358 # dried out fountain
+F:27:/350 # fountain of blood
+
+##### Glyphs #####
+
+F:3:/351 # glyph of warding
+F:64:/352 # rune of warding
+F:175:/363 # monster trap (not providing anti-summon)
+# F:17:/364 # trap (for players) (not providing anti-summon) # not used right now
+
+##### Doors #####
+
+# Open doors
+F:4:/354 # open door
+F:5:/354 # broken door
+F:20:/354 # open door
+F:225:/354 # unsealed door
+
+# Closed doors
+F:25:/353 # closed door
+F:32:/353 # door
+F:33:/353 # locked door
+F:34:/353 # locked door
+F:35:/353 # locked door
+F:36:/353 # locked door
+F:37:/353 # locked door
+F:38:/353 # locked door
+F:39:/353 # locked door
+F:40:/353 # jammed door
+F:41:/353 # jammed door
+F:42:/353 # jammed door
+F:43:/353 # jammed door
+F:44:/353 # jammed door
+F:45:/353 # jammed door
+F:46:/353 # jammed door
+F:47:/353 # jammed door
+F:224:/353 # sealed door
+F:230:/353 # sealed door
+F:231:/353 # sickbay exit
+
+F:48:/353 # secret door (is it needed?)
+
+##### Stairs #####
+
+F:6:/150 # up staircase
+F:9:/150 # quest exit
+F:11:/150 # quest up level
+F:14:/150 # shaft up
+F:135:/150 # staircase leading out
+F:180:/150 # path to the previous area
+
+F:7:/151 # down staircase
+F:8:/151 # quest entrance
+F:10:/151 # quest down level
+F:12:/151 # town exit
+F:13:/151 # shaft down
+F:136:/151 # staircase leading out
+F:176:/151 # Transport beacon
+F:179:/151 # path to the next area
+
+##### Walls #####
+
+# Destructible walls
+
+F:56:/261 # granite wall basic
+F:57:/261 # granite wall inner
+F:58:/261 # granite wall outer
+F:59:/261 # granite wall solid
+F:95:/257 # ice wall
+
+F:92:/450 # dead tree
+F:96:/451 # tree
+F:219:/452 # bush
+
+
+F:98:/258 # Sandwall
+F:99:/258 # Sandwall + treasure
+F:100:/258 # Sandwall + known treasure
+
+F:49:/357 # pile of rubble
+
+F:50:/267 # magma intrusion
+F:52:/267 # magma intrusion
+F:54:/267 # magma intrusion with treasure
+F:51:/268 # quartz vein
+F:53:/268 # quartz vein
+F:55:/268 # quartz vein with treasure
+
+F:234:/270 # grand mirror
+
+## Permanent walls
+
+F:21:/262 # signpost
+
+# F:22:/ # permanent wall
+F:23:/264 # logs
+
+F:26:/251 # permanent wall for houses
+F:28:/251 # permanent wall for upper storeys (no light)
+F:29:/251 # permanent wall (fake-wall)
+F:60:/251 # permanent wall basic/extra (perm) (for stores)
+F:61:/250 # permanent wall inner (perm) (for vaults)
+F:62:/250 # permanent wall outer (perm) (for vaults)
+F:63:/250 # permanent wall solid (perm) (for vaults)
+F:75:/250 # permanent wall (quest?)
+F:76:/250 # permanent wall (quest?)
+F:77:/250 # permanent wall (quest?)
+F:78:/250 # permanent wall (quest?)
+F:80:/250 # spirit wall (permanent wall in the Nether Realm)
+F:139:/453 # an evergreen conifer (xmas tree)
+F:177:/260 # lava wall
+F:183:/251 # permanent wall (dungeon borders)
+F:184:/251 # permanent wall (dungeon borders, but special extended colour)
+F:185:/251 # permanent wall (dungeon borders, but special animated colour aka search lights)
+F:190:/265 # Grass roof
+F:191:/265 # grass roof top
+F:192:/266 # grass roof chimney
+F:193:/253 # brick roof
+F:194:/253 # brick roof top
+F:195:/254 # brick roof chimney
+
+F:81:/255 # steep mountain chain (permanent wall in a bunch of dungeons, instead of default perma wall)
+F:97:/255 # mountain chain
+F:101:/255 # high mountain chain
+F:104:/255 # high mountain chain (impassable by admins, used in Valinor)
+
+F:103:/57 # glittering water (BOUNDARY?)
+F:218:/157 # decorative deep lava
+
+F:211:/56 # decorative shallow water (for Gondolin's fountain in town centre)
+
+F:107:/61 # bottomless, cloudy sky (Cloud Planes walls)
+
+F:159:/267 # magma intrusion (permanent magma vein)
+
+F:206:/ 357 # pile of rubble (Permanent rubble -- town use)
+
+F:212:/269 # Decorative violet crystal Gondolin
+F:213:/269 # Decorative blue crystal Gondolin
+F:214:/269 # Decorative green crystal Gondolin
+F:215:/269 # Decorative yellow crystal
+F:216:/269 # Decorative orange crystal
+F:217:/269 # Decorative red crystal
+
+F:30:/272 # wooden table
+
+F:125:/250 # marble wall
+F:126:/273 # marble balustrade '-'
+F:127:/274 # marble balustrade '|'
+F:128:/275 # marble balustrade '/'
+F:129:/276 # marble balustrade '\'
+F:130:/277 # marble balustrade 'o'
+
+F:122:/278 # star '.'
+F:123:/279 # star '+'
+F:124:/280 # star '*'
+
+F:116:/281 # bars '-'
+F:117:/282 # bars '|'
+F:118:/283 # bars '/'
+F:119:/284 # bars '\'
+F:120:/285 # bars 'o'
+
+F:111:/281 # cordon '-'
+F:112:/282 # cordon '|'
+F:113:/283 # cordon '/'
+F:114:/284 # cordon '\'
+F:115:/285 # cordon 'o'
+
+F:196:/286 # window
+F:197:/287 # small window
+
+F:198:/288 # rain barrel
+
+F:131:/289 # hearthfire
+F:132:/290 # hearthfire's embers
+
+F:140:/291 # decorative glowing sphere (for xmas tree top)
+
+# F:182:/57 # Ekkaia, the Encircling Sea
+F:182:/158 # Ekkaia, the Encircling Sea
+
+##### ??? #####
+
+F:16:1/355 # spider webs
+F:87:/356 # dark pit
+
+
 
 ################# Objects #################
 
@@ -500,7 +796,7 @@ K:66:/906 # Lance
 K:71:/907 # Scythe
 K:72:/908 # Scythe of Slicing
 K:528:/909 # Great Spear
-K:537:/913 # Sickle
+K:537:/910 # Sickle
 K:538:/911 # Dragon Lance
 K:543:/912 # Broad Spear
 K:544:/913 # Rhomphaia
@@ -1066,4 +1362,3 @@ K:713:/3502 # Flash bomb
 K:714:/3502 # Concussive Charge
 K:715:/3502 # Large Concussive Charge
 K:716:/3502 # Underground Charge
-
