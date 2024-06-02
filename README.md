@@ -7,7 +7,7 @@ Currently there is only 16x22 size.
 
 **Roadmap:**
 - [x] objects
-- [ ] terrain
+- [x] terrain
 - [ ] more sizes
 - [ ] monsters
 
