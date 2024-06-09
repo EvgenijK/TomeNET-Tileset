@@ -2,7 +2,9 @@
 
 This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
-Its still in development.  
+## Current state
+
+The tileset still in development.  
 Currently there is only 16x22 size.
 
 **Roadmap:**
@@ -11,19 +13,15 @@ Currently there is only 16x22 size.
 - [ ] more sizes
 - [ ] monsters
 
-Right now there are tiles only for objects(_stuff that you can put in you inventory_), like:
-- **all character equipment**
-- Mushrooms
-- Scrolls 
-- Tomes
-- Wands
-- Rods
-- Staves
-- Potions
-- Runes
-- etc.
+## 16x22 ASCII font
 
-## Example game view (with TG font)
+Because there is no 16x22 ASCII font in TomNET to use with 16x22 graphics here is 16x22 ASCII font based on 16x24 font from the game.  
+Font files(`*.fon`(for Windows) and `*.pcf`(for Linux)) located in `lib/font` folder.  
+See [(2.5a) Custom fonts](https://www.tomenet.eu/guide.php?chapter=2.5a) chapter in the Guide for the "how to set up" font.  
+
+## Current game view (with TG font)
+
+**[More screenshots with ASCII font below](https://github.com/EvgenijK/TomeNET-Tileset/edit/main/README.md#more-screenshots)**
 
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/faf02db6-b696-45da-9ac8-9a275c831904)
 ![image14](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/4f590da0-66fa-4479-bf87-06d1a693b42e)
@@ -72,3 +70,37 @@ There are some known problems with using graphics right now:
 - in character overview window items that have tiles are not displayed correctly
 - Windows: game launch take much more time (few minutes)
 - [SOLVED] fps slowndown if there are many graphic tiles on screen https://github.com/TomenetGame/tomenet/issues/59
+
+# More screenshots
+
+### Bree
+![Снимок экрана_20240609_132159](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/b6bddbfa-f83c-4d2a-a3d6-358ba1216e47)
+
+### Player houses
+![Снимок экрана_20240609_132312](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/a22a2740-2df1-4e05-be90-c3f67246f02f)
+![Снимок экрана_20240609_132350](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/89b8fa4e-eb55-4e66-9c1d-5391e8a28dd6)
+![Снимок экрана_20240609_132539](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/518643b0-3201-4701-be4a-f23e20d6e609)
+
+### Training tower
+![Снимок экрана_20240609_132712](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/bba5e165-ce40-4bac-8bc8-9ecb51bff2a9)
+
+### Barrow Downs
+![Снимок экрана_20240609_132843](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/cd111840-6f16-4f83-9fa3-06d2ff4aed41)
+
+### Mordor
+![Снимок экрана_20240609_134739](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/f6ca0303-4d40-42e4-a5bf-b87b37e2a36a)
+
+### Helcaraxe
+![Снимок экрана_20240609_134223](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/48897eee-ae21-4b1e-83fa-6361c7dfe2fd)
+
+### Angband
+![Снимок экрана_20240609_133344](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/bda99f50-3da1-4ff1-9dd3-5791e50bf6dc)
+![Снимок экрана_20240609_133551](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/5636d81b-36e5-4591-a4ba-f829c957e68a)
+
+### Mount Doom
+![Снимок экрана_20240609_133916](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/36005528-504b-4eae-bd8e-9f696ff43f4b)
+![Снимок экрана_20240609_133938](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/17572882-4ca4-4b19-b141-c81017f89c81)
+
+### Mirkwood and Old Forest
+![Снимок экрана_20240609_134036](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/a36fc831-6b13-408b-8b42-a3df313ecf77)
+![Снимок экрана_20240609_134140](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/a175b384-3ba4-47b9-8bf4-34e2beb59099)
