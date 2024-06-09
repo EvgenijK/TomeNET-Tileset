@@ -21,7 +21,7 @@ See [(2.5a) Custom fonts](https://www.tomenet.eu/guide.php?chapter=2.5a) chapter
 
 ## Current game view (with TG font)
 
-**[More screenshots with ASCII font below](https://github.com/EvgenijK/TomeNET-Tileset/edit/main/README.md#more-screenshots)**
+**[More screenshots with ASCII font below](https://github.com/EvgenijK/TomeNET-Tileset?tab=readme-ov-file#more-screenshots)**
 
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/faf02db6-b696-45da-9ac8-9a275c831904)
 ![image14](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/4f590da0-66fa-4479-bf87-06d1a693b42e)
