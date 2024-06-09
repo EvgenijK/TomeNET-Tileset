@@ -5,7 +5,8 @@ This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 ## Current state
 
 The tileset still in development.  
-Currently there is only 16x22 size.
+Currently there is only 16x22 size.  
+All items/objects and terrain completed, more sizes goal is next.
 
 **Roadmap:**
 - [x] objects
