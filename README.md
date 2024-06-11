@@ -39,11 +39,11 @@ See [(2.5a) Custom fonts](https://www.tomenet.eu/guide.php?chapter=2.5a) chapter
 
 Right now graphics is NOT a replacement for fonts, it works as an extension.  
 
-Tileset adds its own mapping(objects -> tiles) on top of a font one, so it adds its tiles and "rewrites" mapping of objects that exist in both tilset and font mapping. Basically:
+Tileset adds its own mapping(objects -> tiles) on top of a font one, so it adds its tiles and "rewrites" mapping of objects that exist in both tileset and font mapping. Basically:
 | object maped in  | game uses |
 |---               |---        |
 | only font        | font      |
-| only tileset     | tilset    |
+| only tileset     | tileset    |
 | font and tileset | tileset   |
 
 ### Resizing feature  
