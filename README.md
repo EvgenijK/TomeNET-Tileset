@@ -35,6 +35,21 @@ See [(2.5a) Custom fonts](https://www.tomenet.eu/guide.php?chapter=2.5a) chapter
 ![image](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/85b4b989-818b-4223-a7c4-64137b0e30a0)
 ![image3](https://github.com/EvgenijK/TomeNET-Tileset/assets/8179946/50b84d68-398a-4b58-96cc-297b10003bd9)
 
+## How it works
+
+Right now graphics is NOT a replacement for fonts, it works as an extension.  
+
+Tileset adds its own mapping(objects -> tiles) on top of a font one, so it adds its tiles and "rewrites" mapping of objects that exist in both tilset and font mapping. Basically:
+| object maped in  | game uses |
+|---               |---        |
+| only font        | font      |
+| only tileset     | tilset    |
+| font and tileset | tileset   |
+
+### Resizing feature  
+You can use tileset of any size with any font - tiles will resize, but details might look not good if width/height rate is different in font and tileset.
+
+
 ## How to setup
 
 First you need to use the test client as solution to avoid the several minutes of startup freeze in regular client.
@@ -64,12 +79,12 @@ GraphicTiles=16x22sv
 ## Problems
 
 There are some known problems with using graphics right now:
-
+- there is no in client interface to choose or change gfx tilesets, only by changing tomenetrc/tomenet.ini
 - Windows: bmp from github seems to be corrupted when using in windows. Re-saving it in graphic editor solved the issue (like in Paint)
 - monster list shows wrong tiles https://github.com/TomenetGame/tomenet/issues/50
-- interface crash and packet errors if there is no graphic tiles for "Floor" features https://github.com/TomenetGame/tomenet/issues/51
+- interface crash and packet errors if there is only tiles for "monsters" https://github.com/TomenetGame/tomenet/issues/51
 - in character overview window items that have tiles are not displayed correctly
-- Windows: game launch take much more time (few minutes)
+- [SOLVED in test client]Windows: game launch take much more time (few minutes)
 - [SOLVED] fps slowndown if there are many graphic tiles on screen https://github.com/TomenetGame/tomenet/issues/59
 
 # More screenshots
