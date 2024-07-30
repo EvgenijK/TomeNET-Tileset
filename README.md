@@ -2,8 +2,8 @@
 
 This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 
-It's highly inspired by [Tangar's font](https://igroglaz.com/en/t/tileset) 
-Also used [Urizen tileset](https://vurmux.itch.io/urizen-onebit-tileset)
+It's highly inspired by [Tangar's font](https://igroglaz.com/en/t/tileset)   
+Also used [Urizen tileset](https://vurmux.itch.io/urizen-onebit-tileset)  
 
 ## Current state
 
