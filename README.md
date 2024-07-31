@@ -5,6 +5,8 @@ This is a graphical tileset for the TomeNET game (https://tomenet.eu/)
 It's highly inspired by [Tangar's font](https://igroglaz.com/en/t/tileset)   
 Also used [Urizen tileset](https://vurmux.itch.io/urizen-onebit-tileset)  
 
+From the recent TomeNET update there is a chapter about graphical tilesets: [(2.7b) Graphical tilesets](https://www.tomenet.eu/guide.php?chapter=2.7b)
+
 ## Current state
 
 The tileset still in development.  
@@ -21,7 +23,7 @@ All items/objects and terrain completed, more sizes goal is the next.
 
 Because there is no 16x22 ASCII font in TomNET to use with 16x22 graphics here is 16x22 ASCII font based on 16x24 font from the game.  
 Font files(`*.fon`(for Windows) and `*.pcf`(for Linux)) located in `lib/font` folder.  
-See [(2.7b) Graphical tilesets](https://www.tomenet.eu/guide.php?chapter=2.7b) chapter in the Guide for the "how to set up" font.  
+See [(2.7a) Custom fonts](https://www.tomenet.eu/guide.php?chapter=2.7a) chapter in the Guide for the "how to set up" font.  
 
 ## Current game view (with TG font)
 
