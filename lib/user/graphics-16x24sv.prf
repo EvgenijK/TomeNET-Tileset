@@ -188,16 +188,16 @@ F:219:/452 # bush
 
 F:98:/258 # Sandwall
 F:99:/258 # Sandwall + treasure
-F:100:/258 # Sandwall + known treasure
+F:100:/259 # Sandwall + known treasure
 
 F:49:/357 # pile of rubble
 
 F:50:/267 # magma intrusion
 F:52:/267 # magma intrusion
-F:54:/267 # magma intrusion with treasure
+F:54:/367 # magma intrusion with treasure
 F:51:/268 # quartz vein
 F:53:/268 # quartz vein
-F:55:/268 # quartz vein with treasure
+F:55:/368 # quartz vein with treasure
 
 F:234:/270 # grand mirror
 
